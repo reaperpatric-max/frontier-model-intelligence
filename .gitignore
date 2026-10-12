@@ -5,3 +5,5 @@ aa_raw_*.json
 .workbuddy/
 _evo.png
 _full.png
+# 含 GitHub token 的一次性推送脚本，切勿提交到公开仓库
+push_to_github.py
