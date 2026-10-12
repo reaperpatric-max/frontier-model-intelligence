@@ -1,0 +1,7 @@
+dist/
+__pycache__/
+*.pyc
+aa_raw_*.json
+.workbuddy/
+_evo.png
+_full.png
