@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-12",
+ "generatedAt": "2026-10-13",
  "source": "artificialanalysis.ai",
- "modelCount": 687,
+ "modelCount": 689,
  "dateRange": [
   "2022-11-30",
-  "2026-10-07"
+  "2026-10-12"
  ],
  "frontier": [
   {
@@ -421,6 +421,108 @@
     "isReasoning": true
    }
   ],
+  "Meta": [
+   {
+    "date": "2023-02-24",
+    "intelligenceIndex": 5.035,
+    "deltaVsPrevStep": null,
+    "model": "Llama 65B",
+    "slug": "llama-65b",
+    "creator": "Meta",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2023-07-18",
+    "intelligenceIndex": 5.7118,
+    "deltaVsPrevStep": 0.6768,
+    "model": "Llama 2 Chat 7B",
+    "slug": "llama-2-chat-7b",
+    "creator": "Meta",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2024-07-23",
+    "intelligenceIndex": 7.2893,
+    "deltaVsPrevStep": 1.5775,
+    "model": "Llama 3.1 Instruct 405B",
+    "slug": "llama-3-1-instruct-405b",
+    "creator": "Meta",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2024-12-06",
+    "intelligenceIndex": 7.6638,
+    "deltaVsPrevStep": 0.3745,
+    "model": "Llama 3.3 Instruct 70B",
+    "slug": "llama-3-3-instruct-70b",
+    "creator": "Meta",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2025-04-05",
+    "intelligenceIndex": 9.9906,
+    "deltaVsPrevStep": 2.3268,
+    "model": "Llama 4 Maverick",
+    "slug": "llama-4-maverick",
+    "creator": "Meta",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2026-04-08",
+    "intelligenceIndex": 31.2991,
+    "deltaVsPrevStep": 21.3085,
+    "model": "Muse Spark",
+    "slug": "muse-spark",
+    "creator": "Meta",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-07-09",
+    "intelligenceIndex": 33.7298,
+    "deltaVsPrevStep": 2.4307,
+    "model": "Muse Spark 1.1 (Xhigh)",
+    "slug": "muse-spark-1-1",
+    "creator": "Meta",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-08-05",
+    "intelligenceIndex": 39.5759,
+    "deltaVsPrevStep": 5.8461,
+    "model": "Muse Spark 1.2 (Xhigh)",
+    "slug": "muse-spark-1-2",
+    "creator": "Meta",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-09-02",
+    "intelligenceIndex": 48.0923,
+    "deltaVsPrevStep": 8.5164,
+    "model": "Muse Spark 1.3 (Max)",
+    "slug": "muse-spark-1-3",
+    "creator": "Meta",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-12",
+    "intelligenceIndex": 55.8021,
+    "deltaVsPrevStep": 7.7098,
+    "model": "Muse Wonder Full (Max)",
+    "slug": "muse-wonder-full",
+    "creator": "Meta",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
   "OpenAI": [
    {
     "date": "2022-11-30",
@@ -741,98 +843,6 @@
     "model": "Gemini 4 Argon (High)",
     "slug": "gemini-4-argon",
     "creator": "Google",
-    "isOpenWeights": false,
-    "isReasoning": true
-   }
-  ],
-  "Meta": [
-   {
-    "date": "2023-02-24",
-    "intelligenceIndex": 5.035,
-    "deltaVsPrevStep": null,
-    "model": "Llama 65B",
-    "slug": "llama-65b",
-    "creator": "Meta",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2023-07-18",
-    "intelligenceIndex": 5.7118,
-    "deltaVsPrevStep": 0.6768,
-    "model": "Llama 2 Chat 7B",
-    "slug": "llama-2-chat-7b",
-    "creator": "Meta",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2024-07-23",
-    "intelligenceIndex": 7.2893,
-    "deltaVsPrevStep": 1.5775,
-    "model": "Llama 3.1 Instruct 405B",
-    "slug": "llama-3-1-instruct-405b",
-    "creator": "Meta",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2024-12-06",
-    "intelligenceIndex": 7.6638,
-    "deltaVsPrevStep": 0.3745,
-    "model": "Llama 3.3 Instruct 70B",
-    "slug": "llama-3-3-instruct-70b",
-    "creator": "Meta",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2025-04-05",
-    "intelligenceIndex": 9.9906,
-    "deltaVsPrevStep": 2.3268,
-    "model": "Llama 4 Maverick",
-    "slug": "llama-4-maverick",
-    "creator": "Meta",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2026-04-08",
-    "intelligenceIndex": 31.2991,
-    "deltaVsPrevStep": 21.3085,
-    "model": "Muse Spark",
-    "slug": "muse-spark",
-    "creator": "Meta",
-    "isOpenWeights": false,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-07-09",
-    "intelligenceIndex": 33.7298,
-    "deltaVsPrevStep": 2.4307,
-    "model": "Muse Spark 1.1 (Xhigh)",
-    "slug": "muse-spark-1-1",
-    "creator": "Meta",
-    "isOpenWeights": false,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-08-05",
-    "intelligenceIndex": 39.5759,
-    "deltaVsPrevStep": 5.8461,
-    "model": "Muse Spark 1.2 (Xhigh)",
-    "slug": "muse-spark-1-2",
-    "creator": "Meta",
-    "isOpenWeights": false,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-09-02",
-    "intelligenceIndex": 48.0923,
-    "deltaVsPrevStep": 8.5164,
-    "model": "Muse Spark 1.3 (Max)",
-    "slug": "muse-spark-1-3",
-    "creator": "Meta",
     "isOpenWeights": false,
     "isReasoning": true
    }
@@ -2721,7 +2731,7 @@
    "intel": 6.329,
    "open": true,
    "est": true,
-   "price": 0
+   "price": 0.13124999999999998
   },
   {
    "date": "2024-03-04",
@@ -3612,7 +3622,7 @@
    "intel": 5.805,
    "open": true,
    "est": true,
-   "price": 0
+   "price": 0.14
   },
   {
    "date": "2025-02-27",
@@ -3918,7 +3928,7 @@
    "intel": 7.626,
    "open": true,
    "est": true,
-   "price": 0.75
+   "price": 0.23875000000000002
   },
   {
    "date": "2025-04-28",
@@ -3927,7 +3937,7 @@
    "intel": 8.295,
    "open": true,
    "est": true,
-   "price": 1.2249999999999999
+   "price": null
   },
   {
    "date": "2025-04-28",
@@ -3936,7 +3946,7 @@
    "intel": 8.154,
    "open": true,
    "est": true,
-   "price": 1.3125
+   "price": 0.15
   },
   {
    "date": "2025-04-28",
@@ -3963,7 +3973,7 @@
    "intel": 7.276,
    "open": true,
    "est": true,
-   "price": 0.66
+   "price": null
   },
   {
    "date": "2025-04-28",
@@ -3972,7 +3982,7 @@
    "intel": 8.587,
    "open": true,
    "est": true,
-   "price": 0.28
+   "price": 0.31500000000000006
   },
   {
    "date": "2025-04-28",
@@ -3981,7 +3991,7 @@
    "intel": 5.992,
    "open": true,
    "est": true,
-   "price": 0.31
+   "price": 0.2
   },
   {
    "date": "2025-04-28",
@@ -3990,7 +4000,7 @@
    "intel": 9.5,
    "open": true,
    "est": true,
-   "price": 2.625
+   "price": null
   },
   {
    "date": "2025-04-28",
@@ -3999,7 +4009,7 @@
    "intel": 7.344,
    "open": true,
    "est": true,
-   "price": 0.28
+   "price": 0.26249999999999996
   },
   {
    "date": "2025-04-28",
@@ -4017,7 +4027,7 @@
    "intel": 6.703,
    "open": true,
    "est": true,
-   "price": 0.6124999999999999
+   "price": 0.15
   },
   {
    "date": "2025-04-28",
@@ -4026,7 +4036,7 @@
    "intel": 6.623,
    "open": true,
    "est": true,
-   "price": 0.35000000000000003
+   "price": 0.215
   },
   {
    "date": "2025-04-30",
@@ -4413,7 +4423,7 @@
    "intel": 11.997,
    "open": true,
    "est": true,
-   "price": 0.4025
+   "price": 0.385
   },
   {
    "date": "2025-07-22",
@@ -4422,7 +4432,7 @@
    "intel": 11.899,
    "open": true,
    "est": true,
-   "price": 3
+   "price": 0.675
   },
   {
    "date": "2025-07-25",
@@ -4476,7 +4486,7 @@
    "intel": 7.521,
    "open": true,
    "est": true,
-   "price": 0.35000000000000003
+   "price": 0.25
   },
   {
    "date": "2025-07-30",
@@ -4485,7 +4495,7 @@
    "intel": 9.805,
    "open": true,
    "est": false,
-   "price": 0.75
+   "price": 0.595
   },
   {
    "date": "2025-07-31",
@@ -4494,7 +4504,7 @@
    "intel": 9.585,
    "open": true,
    "est": true,
-   "price": 0.9
+   "price": 0.29952999999999996
   },
   {
    "date": "2025-08-05",
@@ -4818,7 +4828,7 @@
    "intel": 12.588,
    "open": false,
    "est": true,
-   "price": 2.4
+   "price": null
   },
   {
    "date": "2025-09-05",
@@ -4845,7 +4855,7 @@
    "intel": 9.643,
    "open": true,
    "est": true,
-   "price": 0.4125
+   "price": 0.3875
   },
   {
    "date": "2025-09-11",
@@ -4989,7 +4999,7 @@
    "intel": 15.61,
    "open": false,
    "est": true,
-   "price": 2.4
+   "price": null
   },
   {
    "date": "2025-09-23",
@@ -4998,7 +5008,7 @@
    "intel": 13.438,
    "open": true,
    "est": true,
-   "price": 1.3
+   "price": null
   },
   {
    "date": "2025-09-23",
@@ -5007,7 +5017,7 @@
    "intel": 9.937,
    "open": true,
    "est": true,
-   "price": 0.7000000000000001
+   "price": 0.50875
   },
   {
    "date": "2025-09-25",
@@ -5115,7 +5125,7 @@
    "intel": 7.926,
    "open": true,
    "est": true,
-   "price": 0.35000000000000003
+   "price": 0.4125
   },
   {
    "date": "2025-10-03",
@@ -5124,7 +5134,7 @@
    "intel": 9.453,
    "open": true,
    "est": true,
-   "price": 0.75
+   "price": 0.5
   },
   {
    "date": "2025-10-07",
@@ -5169,7 +5179,7 @@
    "intel": 7.258,
    "open": true,
    "est": true,
-   "price": 0.31
+   "price": null
   },
   {
    "date": "2025-10-14",
@@ -5178,7 +5188,7 @@
    "intel": 8.172,
    "open": true,
    "est": true,
-   "price": 0.66
+   "price": null
   },
   {
    "date": "2025-10-14",
@@ -5223,7 +5233,7 @@
    "intel": 8.387,
    "open": true,
    "est": true,
-   "price": 0.28
+   "price": null
   },
   {
    "date": "2025-10-21",
@@ -5232,7 +5242,7 @@
    "intel": 11.87,
    "open": true,
    "est": true,
-   "price": 0.28
+   "price": null
   },
   {
    "date": "2025-10-26",
@@ -5304,7 +5314,7 @@
    "intel": 13.374,
    "open": false,
    "est": true,
-   "price": 0.85
+   "price": 0.935
   },
   {
    "date": "2025-10-29",
@@ -5313,7 +5323,7 @@
    "intel": 11.804,
    "open": false,
    "est": true,
-   "price": 0.85
+   "price": 0.935
   },
   {
    "date": "2025-10-29",
@@ -5322,7 +5332,7 @@
    "intel": 8.737,
    "open": false,
    "est": true,
-   "price": 0.85
+   "price": 0.935
   },
   {
    "date": "2025-10-29",
@@ -5331,7 +5341,7 @@
    "intel": 12.482,
    "open": false,
    "est": true,
-   "price": 0.85
+   "price": 0.935
   },
   {
    "date": "2025-10-30",
@@ -5349,7 +5359,7 @@
    "intel": 16.291,
    "open": false,
    "est": true,
-   "price": 2.4
+   "price": null
   },
   {
    "date": "2025-11-06",
@@ -5547,7 +5557,7 @@
    "intel": 14.155,
    "open": false,
    "est": true,
-   "price": 3.4375
+   "price": 3.78125
   },
   {
    "date": "2025-11-27",
@@ -5565,7 +5575,7 @@
    "intel": 9.959,
    "open": false,
    "est": true,
-   "price": 3.4375
+   "price": 3.78125
   },
   {
    "date": "2025-11-27",
@@ -5574,7 +5584,7 @@
    "intel": 12.775,
    "open": false,
    "est": true,
-   "price": 3.4375
+   "price": 3.78125
   },
   {
    "date": "2025-12-01",
@@ -6807,7 +6817,7 @@
    "intel": 28.375,
    "open": false,
    "est": true,
-   "price": 2.925
+   "price": null
   },
   {
    "date": "2026-04-21",
@@ -6960,7 +6970,7 @@
    "intel": 24.384,
    "open": true,
    "est": false,
-   "price": 0.1675
+   "price": 0.142375
   },
   {
    "date": "2026-04-24",
@@ -6987,7 +6997,7 @@
    "intel": 24.167,
    "open": true,
    "est": false,
-   "price": 0.1675
+   "price": 0.142375
   },
   {
    "date": "2026-04-29",
@@ -8283,7 +8293,7 @@
    "intel": 24.569,
    "open": true,
    "est": false,
-   "price": 0.11124999999999999
+   "price": null
   },
   {
    "date": "2026-09-10",
@@ -8689,6 +8699,24 @@
    "open": false,
    "est": false,
    "price": 0.2
+  },
+  {
+   "date": "2026-10-12",
+   "name": "Muse Wonder Full (Max)",
+   "creator": "Meta",
+   "intel": 55.802,
+   "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-12",
+   "name": "Muse Wonder (Max)",
+   "creator": "Meta",
+   "intel": 52.394,
+   "open": false,
+   "est": false,
+   "price": 8
   }
  ]
 }

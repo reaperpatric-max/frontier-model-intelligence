@@ -15,6 +15,16 @@ Anthropic,2026-06-09,49.6258,7.8359,"Claude Fable 5 (Max, Opus 4.8 Fallback)",cl
 Anthropic,2026-07-24,50.7771,1.1513,Claude Opus 5 (Max),claude-opus-5,False,True
 Anthropic,2026-09-01,53.3549,2.5778,"Claude Fable 5.1 (Max, Default Fallback)",claude-fable-5-1,False,True
 Anthropic,2026-09-22,57.6224,4.2675,"Claude Opus 5.5 (Max, Default Fallback)",claude-opus-5-5,False,True
+Meta,2023-02-24,5.035,,Llama 65B,llama-65b,True,False
+Meta,2023-07-18,5.7118,0.6768,Llama 2 Chat 7B,llama-2-chat-7b,True,False
+Meta,2024-07-23,7.2893,1.5775,Llama 3.1 Instruct 405B,llama-3-1-instruct-405b,True,False
+Meta,2024-12-06,7.6638,0.3745,Llama 3.3 Instruct 70B,llama-3-3-instruct-70b,True,False
+Meta,2025-04-05,9.9906,2.3268,Llama 4 Maverick,llama-4-maverick,True,False
+Meta,2026-04-08,31.2991,21.3085,Muse Spark,muse-spark,False,True
+Meta,2026-07-09,33.7298,2.4307,Muse Spark 1.1 (Xhigh),muse-spark-1-1,False,True
+Meta,2026-08-05,39.5759,5.8461,Muse Spark 1.2 (Xhigh),muse-spark-1-2,False,True
+Meta,2026-09-02,48.0923,8.5164,Muse Spark 1.3 (Max),muse-spark-1-3,False,True
+Meta,2026-10-12,55.8021,7.7098,Muse Wonder Full (Max),muse-wonder-full,False,True
 OpenAI,2022-11-30,5.4856,,GPT-3.5 Turbo,gpt-35-turbo,False,False
 OpenAI,2023-03-14,6.7016,1.216,GPT-4,gpt-4,False,False
 OpenAI,2023-11-06,7.0435,0.3419,GPT-4 Turbo,gpt-4-turbo,False,False
@@ -47,15 +57,6 @@ Google,2026-07-21,33.9786,0.346,Gemini 3.6 Flash (High),gemini-3-6-flash,False,T
 Google,2026-08-13,39.6178,5.6392,Gemini 3.7 Flash (Medium),gemini-3-7-flash-medium,False,True
 Google,2026-09-02,40.9262,1.3084,Gemini 3.8 Flash (High),gemini-3-8-flash,False,True
 Google,2026-09-30,52.5606,11.6344,Gemini 4 Argon (High),gemini-4-argon,False,True
-Meta,2023-02-24,5.035,,Llama 65B,llama-65b,True,False
-Meta,2023-07-18,5.7118,0.6768,Llama 2 Chat 7B,llama-2-chat-7b,True,False
-Meta,2024-07-23,7.2893,1.5775,Llama 3.1 Instruct 405B,llama-3-1-instruct-405b,True,False
-Meta,2024-12-06,7.6638,0.3745,Llama 3.3 Instruct 70B,llama-3-3-instruct-70b,True,False
-Meta,2025-04-05,9.9906,2.3268,Llama 4 Maverick,llama-4-maverick,True,False
-Meta,2026-04-08,31.2991,21.3085,Muse Spark,muse-spark,False,True
-Meta,2026-07-09,33.7298,2.4307,Muse Spark 1.1 (Xhigh),muse-spark-1-1,False,True
-Meta,2026-08-05,39.5759,5.8461,Muse Spark 1.2 (Xhigh),muse-spark-1-2,False,True
-Meta,2026-09-02,48.0923,8.5164,Muse Spark 1.3 (Max),muse-spark-1-3,False,True
 SpaceXAI,2024-03-17,6.3379,,Grok-1,grok-1,True,False
 SpaceXAI,2024-08-13,6.8877,0.5498,Grok Beta,grok-beta,False,False
 SpaceXAI,2024-12-12,7.1056,0.2179,Grok 2 (Dec '24),grok-2-1212,True,False
