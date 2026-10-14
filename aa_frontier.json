@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13",
+ "generatedAt": "2026-10-14",
  "source": "artificialanalysis.ai",
  "modelCount": 689,
  "dateRange": [
@@ -7807,7 +7807,7 @@
    "intel": 17.475,
    "open": true,
    "est": false,
-   "price": 0.58125
+   "price": 0.5249999999999999
   },
   {
    "date": "2026-08-10",
