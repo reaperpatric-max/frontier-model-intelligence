@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-14",
+ "generatedAt": "2026-10-15",
  "source": "artificialanalysis.ai",
- "modelCount": 689,
+ "modelCount": 690,
  "dateRange": [
   "2022-11-30",
   "2026-10-12"
@@ -464,8 +464,8 @@
    },
    {
     "date": "2025-04-05",
-    "intelligenceIndex": 9.9906,
-    "deltaVsPrevStep": 2.3268,
+    "intelligenceIndex": 9.299,
+    "deltaVsPrevStep": 1.6352,
     "model": "Llama 4 Maverick",
     "slug": "llama-4-maverick",
     "creator": "Meta",
@@ -475,7 +475,7 @@
    {
     "date": "2026-04-08",
     "intelligenceIndex": 31.2991,
-    "deltaVsPrevStep": 21.3085,
+    "deltaVsPrevStep": 22.0001,
     "model": "Muse Spark",
     "slug": "muse-spark",
     "creator": "Meta",
@@ -2343,6 +2343,28 @@
     "isReasoning": true
    }
   ],
+  "Inception": [
+   {
+    "date": "2026-02-20",
+    "intelligenceIndex": 10.777,
+    "deltaVsPrevStep": null,
+    "model": "Mercury 2",
+    "slug": "mercury-2",
+    "creator": "Inception",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-09-08",
+    "intelligenceIndex": 12.3408,
+    "deltaVsPrevStep": 1.5638,
+    "model": "Mercury 2.5",
+    "slug": "mercury-2-5",
+    "creator": "Inception",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
   "Perplexity": [
    {
     "date": "2025-01-21",
@@ -3799,18 +3821,18 @@
    "date": "2025-04-05",
    "name": "Llama 4 Maverick",
    "creator": "Meta",
-   "intel": 9.991,
+   "intel": 9.299,
    "open": true,
-   "est": true,
+   "est": false,
    "price": 0.405
   },
   {
    "date": "2025-04-05",
    "name": "Llama 4 Scout",
    "creator": "Meta",
-   "intel": 8.075,
+   "intel": 6.451,
    "open": true,
-   "est": true,
+   "est": false,
    "price": 0.30000000000000004
   },
   {
@@ -3943,9 +3965,9 @@
    "date": "2025-04-28",
    "name": "Qwen3 14B (Reasoning)",
    "creator": "Alibaba",
-   "intel": 8.154,
+   "intel": 6.387,
    "open": true,
-   "est": true,
+   "est": false,
    "price": 0.15
   },
   {
@@ -3970,18 +3992,18 @@
    "date": "2025-04-28",
    "name": "Qwen3 8B (Reasoning)",
    "creator": "Alibaba",
-   "intel": 7.276,
+   "intel": 5.161,
    "open": true,
-   "est": true,
+   "est": false,
    "price": null
   },
   {
    "date": "2025-04-28",
    "name": "Qwen3 32B (Reasoning)",
    "creator": "Alibaba",
-   "intel": 8.587,
+   "intel": 7.215,
    "open": true,
-   "est": true,
+   "est": false,
    "price": 0.31500000000000006
   },
   {
@@ -4267,9 +4289,9 @@
    "date": "2025-06-20",
    "name": "Mistral Small 3.2",
    "creator": "Mistral",
-   "intel": 8.245,
+   "intel": 6.964,
    "open": true,
-   "est": true,
+   "est": false,
    "price": 0.10625
   },
   {
@@ -6193,9 +6215,9 @@
    "date": "2026-02-20",
    "name": "Mercury 2",
    "creator": "Inception",
-   "intel": 13.769,
+   "intel": 10.777,
    "open": false,
-   "est": true,
+   "est": false,
    "price": 0.375
   },
   {
@@ -6679,9 +6701,9 @@
    "date": "2026-04-03",
    "name": "Gemma 4 E4B (Reasoning)",
    "creator": "Google",
-   "intel": 8.915,
+   "intel": 8.909,
    "open": true,
-   "est": true,
+   "est": false,
    "price": 0.04
   },
   {
@@ -6841,9 +6863,9 @@
    "date": "2026-04-22",
    "name": "MiMo-V2.5",
    "creator": "Xiaomi",
-   "intel": 25.174,
+   "intel": 21.825,
    "open": true,
-   "est": true,
+   "est": false,
    "price": 0.17500000000000002
   },
   {
@@ -7867,7 +7889,7 @@
    "date": "2026-08-12",
    "name": "Qwen3.8 2.4T A95B",
    "creator": "Alibaba",
-   "intel": 39.886,
+   "intel": 39.946,
    "open": true,
    "est": false,
    "price": 3
@@ -7984,7 +8006,7 @@
    "date": "2026-08-14",
    "name": "Qwen3.8 27B (Xhigh)",
    "creator": "Alibaba",
-   "intel": 33.696,
+   "intel": 33.676,
    "open": true,
    "est": false,
    "price": 1.125
@@ -8069,6 +8091,15 @@
    "open": true,
    "est": false,
    "price": 0.22999999999999998
+  },
+  {
+   "date": "2026-08-26",
+   "name": "Agnes 2.5 Pro Beta",
+   "creator": "Sapiens AI",
+   "intel": 35.241,
+   "open": false,
+   "est": true,
+   "price": 0.15000000000000002
   },
   {
    "date": "2026-08-30",

@@ -19,8 +19,8 @@ Meta,2023-02-24,5.035,,Llama 65B,llama-65b,True,False
 Meta,2023-07-18,5.7118,0.6768,Llama 2 Chat 7B,llama-2-chat-7b,True,False
 Meta,2024-07-23,7.2893,1.5775,Llama 3.1 Instruct 405B,llama-3-1-instruct-405b,True,False
 Meta,2024-12-06,7.6638,0.3745,Llama 3.3 Instruct 70B,llama-3-3-instruct-70b,True,False
-Meta,2025-04-05,9.9906,2.3268,Llama 4 Maverick,llama-4-maverick,True,False
-Meta,2026-04-08,31.2991,21.3085,Muse Spark,muse-spark,False,True
+Meta,2025-04-05,9.299,1.6352,Llama 4 Maverick,llama-4-maverick,True,False
+Meta,2026-04-08,31.2991,22.0001,Muse Spark,muse-spark,False,True
 Meta,2026-07-09,33.7298,2.4307,Muse Spark 1.1 (Xhigh),muse-spark-1-1,False,True
 Meta,2026-08-05,39.5759,5.8461,Muse Spark 1.2 (Xhigh),muse-spark-1-2,False,True
 Meta,2026-09-02,48.0923,8.5164,Muse Spark 1.3 (Max),muse-spark-1-3,False,True
@@ -201,6 +201,8 @@ IBM,2026-08-25,12.6832,5.2463,Granite 4.2 30B,granite-4-2-30b,True,True
 OpenBMB,2026-05-11,5.6903,,MiniCPM-V 4.6 1.3B,minicpm-v4-6-1-3b,True,False
 OpenBMB,2026-05-25,8.7966,3.1063,MiniCPM5-1B (Reasoning),minicpm5-1b,True,True
 OpenBMB,2026-09-07,12.4634,3.6668,MiniCPM5-2B,minicpm5-2b,True,True
+Inception,2026-02-20,10.777,,Mercury 2,mercury-2,False,True
+Inception,2026-09-08,12.3408,1.5638,Mercury 2.5,mercury-2-5,False,True
 Perplexity,2025-01-21,7.7097,,Sonar,sonar,False,False
 Perplexity,2025-01-28,11.8218,4.1121,Sonar Reasoning Pro,sonar-reasoning-pro,False,True
 Sarvam,2025-05-23,5.3107,,"Sarvam M (Reasoning, Based on Mistral Small 3.1)",sarvam-m-reasoning,True,True
