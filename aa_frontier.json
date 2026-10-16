@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15",
+ "generatedAt": "2026-10-16",
  "source": "artificialanalysis.ai",
- "modelCount": 690,
+ "modelCount": 693,
  "dateRange": [
   "2022-11-30",
-  "2026-10-12"
+  "2026-10-15"
  ],
  "frontier": [
   {
@@ -1303,7 +1303,7 @@
     "model": "Step 5 Preview",
     "slug": "step-5",
     "creator": "StepFun",
-    "isOpenWeights": false,
+    "isOpenWeights": true,
     "isReasoning": true
    }
   ],
@@ -1937,50 +1937,6 @@
     "isReasoning": true
    }
   ],
-  "Thinking Machines": [
-   {
-    "date": "2026-07-15",
-    "intelligenceIndex": 24.9848,
-    "deltaVsPrevStep": null,
-    "model": "Inkling (Xhigh)",
-    "slug": "inkling",
-    "creator": "Thinking Machines",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-07-30",
-    "intelligenceIndex": 25.6583,
-    "deltaVsPrevStep": 0.6735,
-    "model": "Inkling Small",
-    "slug": "inkling-small",
-    "creator": "Thinking Machines",
-    "isOpenWeights": true,
-    "isReasoning": true
-   }
-  ],
-  "Tencent": [
-   {
-    "date": "2026-04-23",
-    "intelligenceIndex": 22.7362,
-    "deltaVsPrevStep": null,
-    "model": "Hy3-preview (Reasoning)",
-    "slug": "hy3-preview",
-    "creator": "Tencent",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-07-06",
-    "intelligenceIndex": 25.2973,
-    "deltaVsPrevStep": 2.5611,
-    "model": "Hy3",
-    "slug": "hy3",
-    "creator": "Tencent",
-    "isOpenWeights": true,
-    "isReasoning": true
-   }
-  ],
   "NVIDIA": [
    {
     "date": "2024-10-15",
@@ -2029,6 +1985,60 @@
     "model": "Nemotron 3 Ultra 550B A55B (Reasoning)",
     "slug": "nvidia-nemotron-3-ultra-550b-a55b",
     "creator": "NVIDIA",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-15",
+    "intelligenceIndex": 26.4911,
+    "deltaVsPrevStep": 3.5632,
+    "model": "Nemotron 3.5 Super VL",
+    "slug": "nemotron-3-5-super-vl",
+    "creator": "NVIDIA",
+    "isOpenWeights": true,
+    "isReasoning": true
+   }
+  ],
+  "Thinking Machines": [
+   {
+    "date": "2026-07-15",
+    "intelligenceIndex": 24.9848,
+    "deltaVsPrevStep": null,
+    "model": "Inkling (Xhigh)",
+    "slug": "inkling",
+    "creator": "Thinking Machines",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-07-30",
+    "intelligenceIndex": 25.6583,
+    "deltaVsPrevStep": 0.6735,
+    "model": "Inkling Small",
+    "slug": "inkling-small",
+    "creator": "Thinking Machines",
+    "isOpenWeights": true,
+    "isReasoning": true
+   }
+  ],
+  "Tencent": [
+   {
+    "date": "2026-04-23",
+    "intelligenceIndex": 22.7362,
+    "deltaVsPrevStep": null,
+    "model": "Hy3-preview (Reasoning)",
+    "slug": "hy3-preview",
+    "creator": "Tencent",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-07-06",
+    "intelligenceIndex": 25.2973,
+    "deltaVsPrevStep": 2.5611,
+    "model": "Hy3",
+    "slug": "hy3",
+    "creator": "Tencent",
     "isOpenWeights": true,
     "isReasoning": true
    }
@@ -5336,7 +5346,7 @@
    "intel": 13.374,
    "open": false,
    "est": true,
-   "price": 0.935
+   "price": 0.85
   },
   {
    "date": "2025-10-29",
@@ -5345,7 +5355,7 @@
    "intel": 11.804,
    "open": false,
    "est": true,
-   "price": 0.935
+   "price": 0.85
   },
   {
    "date": "2025-10-29",
@@ -5354,7 +5364,7 @@
    "intel": 8.737,
    "open": false,
    "est": true,
-   "price": 0.935
+   "price": 0.85
   },
   {
    "date": "2025-10-29",
@@ -5363,7 +5373,7 @@
    "intel": 12.482,
    "open": false,
    "est": true,
-   "price": 0.935
+   "price": 0.85
   },
   {
    "date": "2025-10-30",
@@ -5579,7 +5589,7 @@
    "intel": 14.155,
    "open": false,
    "est": true,
-   "price": 3.78125
+   "price": 3.4375
   },
   {
    "date": "2025-11-27",
@@ -5597,7 +5607,7 @@
    "intel": 9.959,
    "open": false,
    "est": true,
-   "price": 3.78125
+   "price": 3.4375
   },
   {
    "date": "2025-11-27",
@@ -5606,7 +5616,7 @@
    "intel": 12.775,
    "open": false,
    "est": true,
-   "price": 3.78125
+   "price": 3.4375
   },
   {
    "date": "2025-12-01",
@@ -8358,7 +8368,7 @@
    "name": "Step 5 Preview",
    "creator": "StepFun",
    "intel": 43.734,
-   "open": false,
+   "open": true,
    "est": false,
    "price": 1.425
   },
@@ -8748,6 +8758,33 @@
    "open": false,
    "est": false,
    "price": 8
+  },
+  {
+   "date": "2026-10-15",
+   "name": "Muse Spark Open (Xhigh)",
+   "creator": "Meta",
+   "intel": 38.867,
+   "open": true,
+   "est": false,
+   "price": 2
+  },
+  {
+   "date": "2026-10-15",
+   "name": "Nemotron 3.5 Bolt 74B-A9B",
+   "creator": "NVIDIA",
+   "intel": 21.407,
+   "open": true,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-15",
+   "name": "Nemotron 3.5 Super VL",
+   "creator": "NVIDIA",
+   "intel": 26.491,
+   "open": true,
+   "est": false,
+   "price": 0.35
   }
  ]
 }

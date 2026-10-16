@@ -101,7 +101,7 @@ StepFun,2026-01-20,7.6939,,Step3 VL 10B,step-3-vl-10b,True,True
 StepFun,2026-02-02,16.6169,8.923,Step 3.5 Flash,step-3-5-flash-0202,True,True
 StepFun,2026-04-02,16.9641,0.3472,Step 3.5 Flash 2603,step-3-5-flash,False,True
 StepFun,2026-05-29,19.4813,2.5172,Step 3.7 Flash,step-3-7-flash,True,True
-StepFun,2026-09-18,43.7343,24.253,Step 5 Preview,step-5,False,True
+StepFun,2026-09-18,43.7343,24.253,Step 5 Preview,step-5,True,True
 Kimi,2025-07-11,12.7155,,Kimi K2,kimi-k2,True,False
 Kimi,2025-09-05,15.2942,2.5787,Kimi K2 0905,kimi-k2-0905,True,False
 Kimi,2025-11-06,22.02,6.7258,Kimi K2 Thinking,kimi-k2-thinking,True,True
@@ -163,15 +163,16 @@ Upstage,2025-12-17,10.3644,1.2944,Solar Open 100B (Reasoning),solar-open-100b-re
 Upstage,2026-08-06,28.1541,17.7897,Solar Pro 4,solar-pro4,False,True
 Multiverse Computing,2026-05-26,11.738,,"HyperNova 60B 2605 (High, Based on gpt-oss-120b)",hypernova-60b,True,True
 Multiverse Computing,2026-08-10,26.7373,14.9993,"Quasar 438B (Max, Based on GLM-5.2)",quasar-438b,False,True
-Thinking Machines,2026-07-15,24.9848,,Inkling (Xhigh),inkling,True,True
-Thinking Machines,2026-07-30,25.6583,0.6735,Inkling Small,inkling-small,True,True
-Tencent,2026-04-23,22.7362,,Hy3-preview (Reasoning),hy3-preview,True,True
-Tencent,2026-07-06,25.2973,2.5611,Hy3,hy3,True,True
 NVIDIA,2024-10-15,6.9438,,Llama 3.1 Nemotron Instruct 70B,llama-3-1-nemotron-instruct-70b,True,False
 NVIDIA,2025-03-18,8.9331,1.9893,Llama 3.3 Nemotron Super 49B v1 (Reasoning),llama-3-3-nemotron-super-49b-reasoning,True,True
 NVIDIA,2025-07-25,9.0144,0.0813,Llama Nemotron Super 49B v1.5 (Reasoning),llama-nemotron-super-49b-v1-5-reasoning,True,True
 NVIDIA,2026-03-11,12.8288,3.8144,Nemotron 3 Super 120B A12B (Reasoning),nvidia-nemotron-3-super-120b-a12b,True,True
 NVIDIA,2026-06-04,22.9279,10.0991,Nemotron 3 Ultra 550B A55B (Reasoning),nvidia-nemotron-3-ultra-550b-a55b,True,True
+NVIDIA,2026-10-15,26.4911,3.5632,Nemotron 3.5 Super VL,nemotron-3-5-super-vl,True,True
+Thinking Machines,2026-07-15,24.9848,,Inkling (Xhigh),inkling,True,True
+Thinking Machines,2026-07-30,25.6583,0.6735,Inkling Small,inkling-small,True,True
+Tencent,2026-04-23,22.7362,,Hy3-preview (Reasoning),hy3-preview,True,True
+Tencent,2026-07-06,25.2973,2.5611,Hy3,hy3,True,True
 AI9Stars,2026-07-23,10.8416,,G9v3-3B,g9v3-3b,True,True
 AI9Stars,2026-08-20,21.8316,10.99,G9v3-39A5B,g9v3-39a5b,True,True
 KwaiKAT,2025-11-11,18.5863,,KAT-Coder-Pro V1,kat-coder-pro-v1,False,False

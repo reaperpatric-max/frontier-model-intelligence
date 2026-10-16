@@ -243,10 +243,10 @@
    ]
   }
  ],
- "versionCount": 495,
+ "versionCount": 498,
  "dateRange": [
   "2022-11-30",
-  "2026-10-12"
+  "2026-10-15"
  ],
  "cadence": {
   "n": 39,
@@ -1190,10 +1190,10 @@
  "tenure": {
   "n": 55,
   "median": 58,
-  "mean": 73.6,
+  "mean": 73.7,
   "p25": 23,
   "p75": 87,
-  "min": 0,
+  "min": 3,
   "max": 426
  },
  "tenures": [
@@ -1499,6 +1499,14 @@
    "days": 23
   },
   {
+   "name": "Claude Opus 5.5 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "from": "2026-09-22",
+   "to": null,
+   "days": 23,
+   "current": true
+  },
+  {
    "name": "Sonar Reasoning Pro",
    "creator": "Perplexity",
    "from": "2025-01-28",
@@ -1513,14 +1521,6 @@
    "days": 22
   },
   {
-   "name": "Claude Opus 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "from": "2026-09-22",
-   "to": null,
-   "days": 20,
-   "current": true
-  },
-  {
    "name": "Claude 4 Sonnet (Reasoning)",
    "creator": "Anthropic",
    "from": "2025-05-22",
@@ -1528,19 +1528,19 @@
    "days": 19
   },
   {
+   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "from": "2026-09-28",
+   "to": null,
+   "days": 17,
+   "current": true
+  },
+  {
    "name": "Llama 3.1 Instruct 405B",
    "creator": "Meta",
    "from": "2024-07-23",
    "to": "2024-08-06",
    "days": 14
-  },
-  {
-   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "from": "2026-09-28",
-   "to": null,
-   "days": 14,
-   "current": true
   },
   {
    "name": "DeepSeek R1 (Jan '25)",
@@ -1582,7 +1582,7 @@
    "creator": "Meta",
    "from": "2026-10-12",
    "to": null,
-   "days": 0,
+   "days": 3,
    "current": true
   }
  ],
