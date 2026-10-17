@@ -243,10 +243,10 @@
    ]
   }
  ],
- "versionCount": 498,
+ "versionCount": 499,
  "dateRange": [
   "2022-11-30",
-  "2026-10-15"
+  "2026-10-16"
  ],
  "cadence": {
   "n": 39,
@@ -1190,10 +1190,10 @@
  "tenure": {
   "n": 55,
   "median": 58,
-  "mean": 73.7,
-  "p25": 23,
+  "mean": 73.8,
+  "p25": 24,
   "p75": 87,
-  "min": 3,
+  "min": 4,
   "max": 426
  },
  "tenures": [
@@ -1492,19 +1492,19 @@
    "days": 24
   },
   {
+   "name": "Claude Opus 5.5 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "from": "2026-09-22",
+   "to": null,
+   "days": 24,
+   "current": true
+  },
+  {
    "name": "Gemini 3 Pro Preview (High)",
    "creator": "Google",
    "from": "2025-11-18",
    "to": "2025-12-11",
    "days": 23
-  },
-  {
-   "name": "Claude Opus 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "from": "2026-09-22",
-   "to": null,
-   "days": 23,
-   "current": true
   },
   {
    "name": "Sonar Reasoning Pro",
@@ -1532,7 +1532,7 @@
    "creator": "Anthropic",
    "from": "2026-09-28",
    "to": null,
-   "days": 17,
+   "days": 18,
    "current": true
   },
   {
@@ -1582,7 +1582,7 @@
    "creator": "Meta",
    "from": "2026-10-12",
    "to": null,
-   "days": 3,
+   "days": 4,
    "current": true
   }
  ],
