@@ -693,3 +693,5 @@
 2026-10-15,Nemotron 3.5 Bolt 74B-A9B,Nemotron 3.5 Bolt 74B-A9B,nemotron-3-5-bolt-74b-a9b,NVIDIA,True,True,medium,False,,21.4072054842003,,,,,0.246524559777572,,,,0.396990740740741,0.696666666666667,,0.0428571428571429,,,,,,,,,,,,,
 2026-10-15,Nemotron 3.5 Super VL,Nemotron 3.5 Super VL,nemotron-3-5-super-vl,NVIDIA,True,True,medium,False,,26.4910658661689,,,,,0.307228915662651,,,,0.478009259259259,0.69,,0.105714285714286,,,,,,,,,,,,,
 2026-10-16,Beam 1.0,Beam 1.0,reflection-beam,Reflection,True,True,large,False,,30.3334426348039,,,,,0.346617238183503,,,,0.484953703703704,0.78,,0.131428571428571,,,,,,,,,,,,,
+2026-10-17,DeepSeek V4.1 Flash 1017 (Max),DeepSeek V4.1 Flash 1017 (max),deepseek-v4-1-flash-1017,DeepSeek,True,True,large,False,,45.0965048681912,,,,,0.433271547729379,,,,0.559027777777778,0.826666666666667,0.80635838150289,0.24,,,,,,,,,,,,,
+2026-10-19,MiniMax-M3.1-Flash,MiniMax-M3.1-Flash,minimax-m3-1-flash,MiniMax,False,True,medium,False,,42.7057475126235,,,,,0.479610750695088,,,,0.533564814814815,0.796666666666667,0.791329479768786,0.222857142857143,,,,,,,,,,,,,

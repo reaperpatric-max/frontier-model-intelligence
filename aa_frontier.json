@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-19",
+ "generatedAt": "2026-10-20",
  "source": "artificialanalysis.ai",
- "modelCount": 694,
+ "modelCount": 696,
  "dateRange": [
   "2022-11-30",
-  "2026-10-16"
+  "2026-10-19"
  ],
  "frontier": [
   {
@@ -1193,6 +1193,178 @@
     "isReasoning": true
    }
   ],
+  "DeepSeek": [
+   {
+    "date": "2023-11-29",
+    "intelligenceIndex": 5.3045,
+    "deltaVsPrevStep": null,
+    "model": "DeepSeek LLM 67B Chat (V1)",
+    "slug": "deepseek-llm-67b-chat",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2024-05-06",
+    "intelligenceIndex": 5.5061,
+    "deltaVsPrevStep": 0.2016,
+    "model": "DeepSeek-V2-Chat",
+    "slug": "deepseek-v2",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2024-06-17",
+    "intelligenceIndex": 5.9843,
+    "deltaVsPrevStep": 0.4782,
+    "model": "DeepSeek-Coder-V2",
+    "slug": "deepseek-coder-v2",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2024-09-06",
+    "intelligenceIndex": 6.5531,
+    "deltaVsPrevStep": 0.5688,
+    "model": "DeepSeek-V2.5",
+    "slug": "deepseek-v2-5-sep-2024",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2024-12-10",
+    "intelligenceIndex": 6.6173,
+    "deltaVsPrevStep": 0.0642,
+    "model": "DeepSeek-V2.5 (Dec '24)",
+    "slug": "deepseek-v2-5",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2024-12-26",
+    "intelligenceIndex": 8.4869,
+    "deltaVsPrevStep": 1.8696,
+    "model": "DeepSeek V3 (Dec '24)",
+    "slug": "deepseek-v3",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2025-01-20",
+    "intelligenceIndex": 11.411,
+    "deltaVsPrevStep": 2.9241,
+    "model": "DeepSeek R1 (Jan '25)",
+    "slug": "deepseek-r1-0120",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2025-05-28",
+    "intelligenceIndex": 13.1221,
+    "deltaVsPrevStep": 1.7111,
+    "model": "DeepSeek R1 0528 (May '25)",
+    "slug": "deepseek-r1",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2025-08-21",
+    "intelligenceIndex": 13.7079,
+    "deltaVsPrevStep": 0.5858,
+    "model": "DeepSeek V3.1 (Non-reasoning)",
+    "slug": "deepseek-v3-1",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2025-09-22",
+    "intelligenceIndex": 14.764,
+    "deltaVsPrevStep": 1.0561,
+    "model": "DeepSeek V3.1 Terminus (Reasoning)",
+    "slug": "deepseek-v3-1-terminus-reasoning",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2025-09-29",
+    "intelligenceIndex": 16.5794,
+    "deltaVsPrevStep": 1.8154,
+    "model": "DeepSeek V3.2 Exp (Reasoning)",
+    "slug": "deepseek-v3-2-reasoning-0925",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2025-12-01",
+    "intelligenceIndex": 21.4868,
+    "deltaVsPrevStep": 4.9074,
+    "model": "DeepSeek V3.2 (Reasoning)",
+    "slug": "deepseek-v3-2-reasoning",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-04-24",
+    "intelligenceIndex": 30.4497,
+    "deltaVsPrevStep": 8.9629,
+    "model": "DeepSeek V4 Pro 0424 (Max)",
+    "slug": "deepseek-v4-pro-0424",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-07-31",
+    "intelligenceIndex": 34.3305,
+    "deltaVsPrevStep": 3.8808,
+    "model": "DeepSeek V4 Flash 0731 (Max)",
+    "slug": "deepseek-v4-flash",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-08-13",
+    "intelligenceIndex": 35.9968,
+    "deltaVsPrevStep": 1.6663,
+    "model": "DeepSeek V4 Pro 0813 (Max)",
+    "slug": "deepseek-v4-pro",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-09-10",
+    "intelligenceIndex": 39.4562,
+    "deltaVsPrevStep": 3.4594,
+    "model": "DeepSeek V4.1 Flash (Max)",
+    "slug": "deepseek-v4-1-flash",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-17",
+    "intelligenceIndex": 45.0965,
+    "deltaVsPrevStep": 5.6403,
+    "model": "DeepSeek V4.1 Flash 1017 (Max)",
+    "slug": "deepseek-v4-1-flash-1017",
+    "creator": "DeepSeek",
+    "isOpenWeights": true,
+    "isReasoning": true
+   }
+  ],
   "Z AI": [
    {
     "date": "2025-07-28",
@@ -1369,6 +1541,68 @@
     "isReasoning": true
    }
   ],
+  "MiniMax": [
+   {
+    "date": "2025-06-17",
+    "intelligenceIndex": 11.7253,
+    "deltaVsPrevStep": null,
+    "model": "MiniMax M1 80k",
+    "slug": "minimax-m1-80k",
+    "creator": "MiniMax",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2025-10-26",
+    "intelligenceIndex": 18.6257,
+    "deltaVsPrevStep": 6.9004,
+    "model": "MiniMax-M2",
+    "slug": "minimax-m2",
+    "creator": "MiniMax",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2025-12-23",
+    "intelligenceIndex": 20.9453,
+    "deltaVsPrevStep": 2.3196,
+    "model": "MiniMax-M2.1",
+    "slug": "minimax-m2-1",
+    "creator": "MiniMax",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-02-12",
+    "intelligenceIndex": 22.7966,
+    "deltaVsPrevStep": 1.8513,
+    "model": "MiniMax-M2.5",
+    "slug": "minimax-m2-5",
+    "creator": "MiniMax",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-06-01",
+    "intelligenceIndex": 29.2203,
+    "deltaVsPrevStep": 6.4237,
+    "model": "MiniMax-M3",
+    "slug": "minimax-m3",
+    "creator": "MiniMax",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-19",
+    "intelligenceIndex": 42.7057,
+    "deltaVsPrevStep": 13.4854,
+    "model": "MiniMax-M3.1-Flash",
+    "slug": "minimax-m3-1-flash",
+    "creator": "MiniMax",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
   "InclusionAI": [
    {
     "date": "2025-09-09",
@@ -1447,168 +1681,6 @@
     "model": "Ling 3.1 Flash",
     "slug": "ling-3-1-flash",
     "creator": "InclusionAI",
-    "isOpenWeights": true,
-    "isReasoning": true
-   }
-  ],
-  "DeepSeek": [
-   {
-    "date": "2023-11-29",
-    "intelligenceIndex": 5.3045,
-    "deltaVsPrevStep": null,
-    "model": "DeepSeek LLM 67B Chat (V1)",
-    "slug": "deepseek-llm-67b-chat",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2024-05-06",
-    "intelligenceIndex": 5.5061,
-    "deltaVsPrevStep": 0.2016,
-    "model": "DeepSeek-V2-Chat",
-    "slug": "deepseek-v2",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2024-06-17",
-    "intelligenceIndex": 5.9843,
-    "deltaVsPrevStep": 0.4782,
-    "model": "DeepSeek-Coder-V2",
-    "slug": "deepseek-coder-v2",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2024-09-06",
-    "intelligenceIndex": 6.5531,
-    "deltaVsPrevStep": 0.5688,
-    "model": "DeepSeek-V2.5",
-    "slug": "deepseek-v2-5-sep-2024",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2024-12-10",
-    "intelligenceIndex": 6.6173,
-    "deltaVsPrevStep": 0.0642,
-    "model": "DeepSeek-V2.5 (Dec '24)",
-    "slug": "deepseek-v2-5",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2024-12-26",
-    "intelligenceIndex": 8.4869,
-    "deltaVsPrevStep": 1.8696,
-    "model": "DeepSeek V3 (Dec '24)",
-    "slug": "deepseek-v3",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2025-01-20",
-    "intelligenceIndex": 11.411,
-    "deltaVsPrevStep": 2.9241,
-    "model": "DeepSeek R1 (Jan '25)",
-    "slug": "deepseek-r1-0120",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2025-05-28",
-    "intelligenceIndex": 13.1221,
-    "deltaVsPrevStep": 1.7111,
-    "model": "DeepSeek R1 0528 (May '25)",
-    "slug": "deepseek-r1",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2025-08-21",
-    "intelligenceIndex": 13.7079,
-    "deltaVsPrevStep": 0.5858,
-    "model": "DeepSeek V3.1 (Non-reasoning)",
-    "slug": "deepseek-v3-1",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2025-09-22",
-    "intelligenceIndex": 14.764,
-    "deltaVsPrevStep": 1.0561,
-    "model": "DeepSeek V3.1 Terminus (Reasoning)",
-    "slug": "deepseek-v3-1-terminus-reasoning",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2025-09-29",
-    "intelligenceIndex": 16.5794,
-    "deltaVsPrevStep": 1.8154,
-    "model": "DeepSeek V3.2 Exp (Reasoning)",
-    "slug": "deepseek-v3-2-reasoning-0925",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2025-12-01",
-    "intelligenceIndex": 21.4868,
-    "deltaVsPrevStep": 4.9074,
-    "model": "DeepSeek V3.2 (Reasoning)",
-    "slug": "deepseek-v3-2-reasoning",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-04-24",
-    "intelligenceIndex": 30.4497,
-    "deltaVsPrevStep": 8.9629,
-    "model": "DeepSeek V4 Pro 0424 (Max)",
-    "slug": "deepseek-v4-pro-0424",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-07-31",
-    "intelligenceIndex": 34.3305,
-    "deltaVsPrevStep": 3.8808,
-    "model": "DeepSeek V4 Flash 0731 (Max)",
-    "slug": "deepseek-v4-flash",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-08-13",
-    "intelligenceIndex": 35.9968,
-    "deltaVsPrevStep": 1.6663,
-    "model": "DeepSeek V4 Pro 0813 (Max)",
-    "slug": "deepseek-v4-pro",
-    "creator": "DeepSeek",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-09-10",
-    "intelligenceIndex": 39.4562,
-    "deltaVsPrevStep": 3.4594,
-    "model": "DeepSeek V4.1 Flash (Max)",
-    "slug": "deepseek-v4-1-flash",
-    "creator": "DeepSeek",
     "isOpenWeights": true,
     "isReasoning": true
    }
@@ -1817,58 +1889,6 @@
     "model": "K2 Horizon 375B A23B",
     "slug": "k2-horizon-375b-a23b",
     "creator": "Institute of Foundation Models",
-    "isOpenWeights": true,
-    "isReasoning": true
-   }
-  ],
-  "MiniMax": [
-   {
-    "date": "2025-06-17",
-    "intelligenceIndex": 11.7253,
-    "deltaVsPrevStep": null,
-    "model": "MiniMax M1 80k",
-    "slug": "minimax-m1-80k",
-    "creator": "MiniMax",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2025-10-26",
-    "intelligenceIndex": 18.6257,
-    "deltaVsPrevStep": 6.9004,
-    "model": "MiniMax-M2",
-    "slug": "minimax-m2",
-    "creator": "MiniMax",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2025-12-23",
-    "intelligenceIndex": 20.9453,
-    "deltaVsPrevStep": 2.3196,
-    "model": "MiniMax-M2.1",
-    "slug": "minimax-m2-1",
-    "creator": "MiniMax",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-02-12",
-    "intelligenceIndex": 22.7966,
-    "deltaVsPrevStep": 1.8513,
-    "model": "MiniMax-M2.5",
-    "slug": "minimax-m2-5",
-    "creator": "MiniMax",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-06-01",
-    "intelligenceIndex": 29.2203,
-    "deltaVsPrevStep": 6.4237,
-    "model": "MiniMax-M3",
-    "slug": "minimax-m3",
-    "creator": "MiniMax",
     "isOpenWeights": true,
     "isReasoning": true
    }
@@ -8792,6 +8812,24 @@
    "creator": "Reflection",
    "intel": 30.333,
    "open": true,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-17",
+   "name": "DeepSeek V4.1 Flash 1017 (Max)",
+   "creator": "DeepSeek",
+   "intel": 45.097,
+   "open": true,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-19",
+   "name": "MiniMax-M3.1-Flash",
+   "creator": "MiniMax",
+   "intel": 42.706,
+   "open": false,
    "est": false,
    "price": null
   }

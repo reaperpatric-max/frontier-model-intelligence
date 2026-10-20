@@ -243,10 +243,10 @@
    ]
   }
  ],
- "versionCount": 499,
+ "versionCount": 501,
  "dateRange": [
   "2022-11-30",
-  "2026-10-16"
+  "2026-10-19"
  ],
  "cadence": {
   "n": 39,
@@ -1190,10 +1190,10 @@
  "tenure": {
   "n": 55,
   "median": 58,
-  "mean": 73.8,
+  "mean": 73.9,
   "p25": 24,
   "p75": 87,
-  "min": 4,
+  "min": 5,
   "max": 426
  },
  "tenures": [
@@ -1478,6 +1478,14 @@
    "days": 32
   },
   {
+   "name": "Claude Opus 5.5 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "from": "2026-09-22",
+   "to": null,
+   "days": 27,
+   "current": true
+  },
+  {
    "name": "GPT-6 Astra (Max)",
    "creator": "OpenAI",
    "from": "2026-09-03",
@@ -1490,14 +1498,6 @@
    "from": "2025-01-31",
    "to": "2025-02-24",
    "days": 24
-  },
-  {
-   "name": "Claude Opus 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "from": "2026-09-22",
-   "to": null,
-   "days": 24,
-   "current": true
   },
   {
    "name": "Gemini 3 Pro Preview (High)",
@@ -1521,19 +1521,19 @@
    "days": 22
   },
   {
+   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "from": "2026-09-28",
+   "to": null,
+   "days": 21,
+   "current": true
+  },
+  {
    "name": "Claude 4 Sonnet (Reasoning)",
    "creator": "Anthropic",
    "from": "2025-05-22",
    "to": "2025-06-10",
    "days": 19
-  },
-  {
-   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "from": "2026-09-28",
-   "to": null,
-   "days": 18,
-   "current": true
   },
   {
    "name": "Llama 3.1 Instruct 405B",
@@ -1571,19 +1571,19 @@
    "days": 7
   },
   {
+   "name": "Muse Wonder Full (Max)",
+   "creator": "Meta",
+   "from": "2026-10-12",
+   "to": null,
+   "days": 7,
+   "current": true
+  },
+  {
    "name": "GPT-5.1 Codex (High)",
    "creator": "OpenAI",
    "from": "2025-11-13",
    "to": "2025-11-18",
    "days": 5
-  },
-  {
-   "name": "Muse Wonder Full (Max)",
-   "creator": "Meta",
-   "from": "2026-10-12",
-   "to": null,
-   "days": 4,
-   "current": true
   }
  ],
  "snaps": [
