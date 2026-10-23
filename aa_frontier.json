@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-22",
+ "generatedAt": "2026-10-23",
  "source": "artificialanalysis.ai",
- "modelCount": 696,
+ "modelCount": 697,
  "dateRange": [
   "2022-11-30",
-  "2026-10-19"
+  "2026-10-22"
  ],
  "frontier": [
   {
@@ -1427,6 +1427,98 @@
     "isReasoning": true
    }
   ],
+  "InclusionAI": [
+   {
+    "date": "2025-09-09",
+    "intelligenceIndex": 5.5439,
+    "deltaVsPrevStep": null,
+    "model": "Ling-mini-2.0",
+    "slug": "ling-mini-2-0",
+    "creator": "InclusionAI",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2025-09-17",
+    "intelligenceIndex": 7.8075,
+    "deltaVsPrevStep": 2.2636,
+    "model": "Ling-flash-2.0",
+    "slug": "ling-flash-2-0",
+    "creator": "InclusionAI",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2025-10-08",
+    "intelligenceIndex": 9.1721,
+    "deltaVsPrevStep": 1.3646,
+    "model": "Ling-1T",
+    "slug": "ling-1t",
+    "creator": "InclusionAI",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2025-10-13",
+    "intelligenceIndex": 10.8975,
+    "deltaVsPrevStep": 1.7254,
+    "model": "Ring-1T",
+    "slug": "ring-1t",
+    "creator": "InclusionAI",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-04-23",
+    "intelligenceIndex": 17.0002,
+    "deltaVsPrevStep": 6.1027,
+    "model": "Ling-2.6-1T",
+    "slug": "ling-2-6-1t",
+    "creator": "InclusionAI",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2026-08-04",
+    "intelligenceIndex": 20.1333,
+    "deltaVsPrevStep": 3.1331,
+    "model": "Ling 3.0 Flash",
+    "slug": "ling-3-0-flash",
+    "creator": "InclusionAI",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-09-10",
+    "intelligenceIndex": 24.5693,
+    "deltaVsPrevStep": 4.436,
+    "model": "Ling-3.0-flash-VL",
+    "slug": "ling-3-0-flash-vl",
+    "creator": "InclusionAI",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-01",
+    "intelligenceIndex": 41.0906,
+    "deltaVsPrevStep": 16.5213,
+    "model": "Ling 3.1 Flash",
+    "slug": "ling-3-1-flash",
+    "creator": "InclusionAI",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-22",
+    "intelligenceIndex": 43.8974,
+    "deltaVsPrevStep": 2.8068,
+    "model": "Ling 3.1 Flash 1019",
+    "slug": "ling-3-1-flash-1019",
+    "creator": "InclusionAI",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
   "StepFun": [
    {
     "date": "2026-01-20",
@@ -1600,88 +1692,6 @@
     "slug": "minimax-m3-1-flash",
     "creator": "MiniMax",
     "isOpenWeights": false,
-    "isReasoning": true
-   }
-  ],
-  "InclusionAI": [
-   {
-    "date": "2025-09-09",
-    "intelligenceIndex": 5.5439,
-    "deltaVsPrevStep": null,
-    "model": "Ling-mini-2.0",
-    "slug": "ling-mini-2-0",
-    "creator": "InclusionAI",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2025-09-17",
-    "intelligenceIndex": 7.8075,
-    "deltaVsPrevStep": 2.2636,
-    "model": "Ling-flash-2.0",
-    "slug": "ling-flash-2-0",
-    "creator": "InclusionAI",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2025-10-08",
-    "intelligenceIndex": 9.1721,
-    "deltaVsPrevStep": 1.3646,
-    "model": "Ling-1T",
-    "slug": "ling-1t",
-    "creator": "InclusionAI",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2025-10-13",
-    "intelligenceIndex": 10.8975,
-    "deltaVsPrevStep": 1.7254,
-    "model": "Ring-1T",
-    "slug": "ring-1t",
-    "creator": "InclusionAI",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-04-23",
-    "intelligenceIndex": 17.0002,
-    "deltaVsPrevStep": 6.1027,
-    "model": "Ling-2.6-1T",
-    "slug": "ling-2-6-1t",
-    "creator": "InclusionAI",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2026-08-04",
-    "intelligenceIndex": 20.1333,
-    "deltaVsPrevStep": 3.1331,
-    "model": "Ling 3.0 Flash",
-    "slug": "ling-3-0-flash",
-    "creator": "InclusionAI",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-09-10",
-    "intelligenceIndex": 24.5693,
-    "deltaVsPrevStep": 4.436,
-    "model": "Ling-3.0-flash-VL",
-    "slug": "ling-3-0-flash-vl",
-    "creator": "InclusionAI",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-10-01",
-    "intelligenceIndex": 41.0906,
-    "deltaVsPrevStep": 16.5213,
-    "model": "Ling 3.1 Flash",
-    "slug": "ling-3-1-flash",
-    "creator": "InclusionAI",
-    "isOpenWeights": true,
     "isReasoning": true
    }
   ],
@@ -8829,6 +8839,15 @@
    "name": "MiniMax-M3.1-Flash",
    "creator": "MiniMax",
    "intel": 42.706,
+   "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-22",
+   "name": "Ling 3.1 Flash 1019",
+   "creator": "InclusionAI",
+   "intel": 43.897,
    "open": false,
    "est": false,
    "price": null

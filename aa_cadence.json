@@ -243,10 +243,10 @@
    ]
   }
  ],
- "versionCount": 501,
+ "versionCount": 502,
  "dateRange": [
   "2022-11-30",
-  "2026-10-19"
+  "2026-10-22"
  ],
  "cadence": {
   "n": 39,
@@ -1190,7 +1190,7 @@
  "tenure": {
   "n": 55,
   "median": 58,
-  "mean": 73.9,
+  "mean": 74.1,
   "p25": 24,
   "p75": 87,
   "min": 5,
@@ -1482,7 +1482,7 @@
    "creator": "Anthropic",
    "from": "2026-09-22",
    "to": null,
-   "days": 27,
+   "days": 30,
    "current": true
   },
   {
@@ -1498,6 +1498,14 @@
    "from": "2025-01-31",
    "to": "2025-02-24",
    "days": 24
+  },
+  {
+   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "from": "2026-09-28",
+   "to": null,
+   "days": 24,
+   "current": true
   },
   {
    "name": "Gemini 3 Pro Preview (High)",
@@ -1519,14 +1527,6 @@
    "from": "2025-03-25",
    "to": "2025-04-16",
    "days": 22
-  },
-  {
-   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "from": "2026-09-28",
-   "to": null,
-   "days": 21,
-   "current": true
   },
   {
    "name": "Claude 4 Sonnet (Reasoning)",
@@ -1557,6 +1557,14 @@
    "days": 11
   },
   {
+   "name": "Muse Wonder Full (Max)",
+   "creator": "Meta",
+   "from": "2026-10-12",
+   "to": null,
+   "days": 10,
+   "current": true
+  },
+  {
    "name": "Kimi K3 (Max)",
    "creator": "Kimi",
    "from": "2026-07-16",
@@ -1569,14 +1577,6 @@
    "from": "2026-07-09",
    "to": "2026-07-16",
    "days": 7
-  },
-  {
-   "name": "Muse Wonder Full (Max)",
-   "creator": "Meta",
-   "from": "2026-10-12",
-   "to": null,
-   "days": 7,
-   "current": true
   },
   {
    "name": "GPT-5.1 Codex (High)",
