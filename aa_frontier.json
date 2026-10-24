@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-23",
+ "generatedAt": "2026-10-24",
  "source": "artificialanalysis.ai",
- "modelCount": 697,
+ "modelCount": 698,
  "dateRange": [
   "2022-11-30",
-  "2026-10-22"
+  "2026-10-23"
  ],
  "frontier": [
   {
@@ -519,6 +519,78 @@
     "model": "Muse Wonder Full (Max)",
     "slug": "muse-wonder-full",
     "creator": "Meta",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
+  "Kimi": [
+   {
+    "date": "2025-07-11",
+    "intelligenceIndex": 12.7155,
+    "deltaVsPrevStep": null,
+    "model": "Kimi K2",
+    "slug": "kimi-k2",
+    "creator": "Kimi",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2025-09-05",
+    "intelligenceIndex": 15.2942,
+    "deltaVsPrevStep": 2.5787,
+    "model": "Kimi K2 0905",
+    "slug": "kimi-k2-0905",
+    "creator": "Kimi",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2025-11-06",
+    "intelligenceIndex": 22.02,
+    "deltaVsPrevStep": 6.7258,
+    "model": "Kimi K2 Thinking",
+    "slug": "kimi-k2-thinking",
+    "creator": "Kimi",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-01-27",
+    "intelligenceIndex": 23.4585,
+    "deltaVsPrevStep": 1.4385,
+    "model": "Kimi K2.5 (Reasoning)",
+    "slug": "kimi-k2-5",
+    "creator": "Kimi",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-04-20",
+    "intelligenceIndex": 26.9792,
+    "deltaVsPrevStep": 3.5207,
+    "model": "Kimi K2.6 (Reasoning)",
+    "slug": "kimi-k2-6",
+    "creator": "Kimi",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-07-16",
+    "intelligenceIndex": 43.5938,
+    "deltaVsPrevStep": 16.6146,
+    "model": "Kimi K3 (Max)",
+    "slug": "kimi-k3",
+    "creator": "Kimi",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-23",
+    "intelligenceIndex": 55.0869,
+    "deltaVsPrevStep": 11.4931,
+    "model": "Kimi K3.1 Pro",
+    "slug": "kimi-k3-1-pro",
+    "creator": "Kimi",
     "isOpenWeights": false,
     "isReasoning": true
    }
@@ -1567,68 +1639,6 @@
     "model": "Step 5 Preview",
     "slug": "step-5",
     "creator": "StepFun",
-    "isOpenWeights": true,
-    "isReasoning": true
-   }
-  ],
-  "Kimi": [
-   {
-    "date": "2025-07-11",
-    "intelligenceIndex": 12.7155,
-    "deltaVsPrevStep": null,
-    "model": "Kimi K2",
-    "slug": "kimi-k2",
-    "creator": "Kimi",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2025-09-05",
-    "intelligenceIndex": 15.2942,
-    "deltaVsPrevStep": 2.5787,
-    "model": "Kimi K2 0905",
-    "slug": "kimi-k2-0905",
-    "creator": "Kimi",
-    "isOpenWeights": true,
-    "isReasoning": false
-   },
-   {
-    "date": "2025-11-06",
-    "intelligenceIndex": 22.02,
-    "deltaVsPrevStep": 6.7258,
-    "model": "Kimi K2 Thinking",
-    "slug": "kimi-k2-thinking",
-    "creator": "Kimi",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-01-27",
-    "intelligenceIndex": 23.4585,
-    "deltaVsPrevStep": 1.4385,
-    "model": "Kimi K2.5 (Reasoning)",
-    "slug": "kimi-k2-5",
-    "creator": "Kimi",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-04-20",
-    "intelligenceIndex": 26.9792,
-    "deltaVsPrevStep": 3.5207,
-    "model": "Kimi K2.6 (Reasoning)",
-    "slug": "kimi-k2-6",
-    "creator": "Kimi",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-07-16",
-    "intelligenceIndex": 43.5938,
-    "deltaVsPrevStep": 16.6146,
-    "model": "Kimi K3 (Max)",
-    "slug": "kimi-k3",
-    "creator": "Kimi",
     "isOpenWeights": true,
     "isReasoning": true
    }
@@ -8848,6 +8858,15 @@
    "name": "Ling 3.1 Flash 1019",
    "creator": "InclusionAI",
    "intel": 43.897,
+   "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-23",
+   "name": "Kimi K3.1 Pro",
+   "creator": "Kimi",
+   "intel": 55.087,
    "open": false,
    "est": false,
    "price": null

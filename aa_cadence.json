@@ -243,10 +243,10 @@
    ]
   }
  ],
- "versionCount": 502,
+ "versionCount": 503,
  "dateRange": [
   "2022-11-30",
-  "2026-10-22"
+  "2026-10-23"
  ],
  "cadence": {
   "n": 39,
@@ -1190,8 +1190,8 @@
  "tenure": {
   "n": 55,
   "median": 58,
-  "mean": 74.1,
-  "p25": 24,
+  "mean": 74.2,
+  "p25": 25,
   "p75": 87,
   "min": 5,
   "max": 426
@@ -1482,7 +1482,7 @@
    "creator": "Anthropic",
    "from": "2026-09-22",
    "to": null,
-   "days": 30,
+   "days": 31,
    "current": true
   },
   {
@@ -1493,19 +1493,19 @@
    "days": 25
   },
   {
+   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "from": "2026-09-28",
+   "to": null,
+   "days": 25,
+   "current": true
+  },
+  {
    "name": "o3-mini",
    "creator": "OpenAI",
    "from": "2025-01-31",
    "to": "2025-02-24",
    "days": 24
-  },
-  {
-   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "from": "2026-09-28",
-   "to": null,
-   "days": 24,
-   "current": true
   },
   {
    "name": "Gemini 3 Pro Preview (High)",
@@ -1561,7 +1561,7 @@
    "creator": "Meta",
    "from": "2026-10-12",
    "to": null,
-   "days": 10,
+   "days": 11,
    "current": true
   },
   {

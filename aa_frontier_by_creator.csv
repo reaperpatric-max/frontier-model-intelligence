@@ -25,6 +25,13 @@ Meta,2026-07-09,33.7298,2.4307,Muse Spark 1.1 (Xhigh),muse-spark-1-1,False,True
 Meta,2026-08-05,39.5759,5.8461,Muse Spark 1.2 (Xhigh),muse-spark-1-2,False,True
 Meta,2026-09-02,48.0923,8.5164,Muse Spark 1.3 (Max),muse-spark-1-3,False,True
 Meta,2026-10-12,55.8021,7.7098,Muse Wonder Full (Max),muse-wonder-full,False,True
+Kimi,2025-07-11,12.7155,,Kimi K2,kimi-k2,True,False
+Kimi,2025-09-05,15.2942,2.5787,Kimi K2 0905,kimi-k2-0905,True,False
+Kimi,2025-11-06,22.02,6.7258,Kimi K2 Thinking,kimi-k2-thinking,True,True
+Kimi,2026-01-27,23.4585,1.4385,Kimi K2.5 (Reasoning),kimi-k2-5,True,True
+Kimi,2026-04-20,26.9792,3.5207,Kimi K2.6 (Reasoning),kimi-k2-6,True,True
+Kimi,2026-07-16,43.5938,16.6146,Kimi K3 (Max),kimi-k3,True,True
+Kimi,2026-10-23,55.0869,11.4931,Kimi K3.1 Pro,kimi-k3-1-pro,False,True
 OpenAI,2022-11-30,5.4856,,GPT-3.5 Turbo,gpt-35-turbo,False,False
 OpenAI,2023-03-14,6.7016,1.216,GPT-4,gpt-4,False,False
 OpenAI,2023-11-06,7.0435,0.3419,GPT-4 Turbo,gpt-4-turbo,False,False
@@ -128,12 +135,6 @@ StepFun,2026-02-02,16.6169,8.923,Step 3.5 Flash,step-3-5-flash-0202,True,True
 StepFun,2026-04-02,16.9641,0.3472,Step 3.5 Flash 2603,step-3-5-flash,False,True
 StepFun,2026-05-29,19.4813,2.5172,Step 3.7 Flash,step-3-7-flash,True,True
 StepFun,2026-09-18,43.7343,24.253,Step 5 Preview,step-5,True,True
-Kimi,2025-07-11,12.7155,,Kimi K2,kimi-k2,True,False
-Kimi,2025-09-05,15.2942,2.5787,Kimi K2 0905,kimi-k2-0905,True,False
-Kimi,2025-11-06,22.02,6.7258,Kimi K2 Thinking,kimi-k2-thinking,True,True
-Kimi,2026-01-27,23.4585,1.4385,Kimi K2.5 (Reasoning),kimi-k2-5,True,True
-Kimi,2026-04-20,26.9792,3.5207,Kimi K2.6 (Reasoning),kimi-k2-6,True,True
-Kimi,2026-07-16,43.5938,16.6146,Kimi K3 (Max),kimi-k3,True,True
 MiniMax,2025-06-17,11.7253,,MiniMax M1 80k,minimax-m1-80k,True,True
 MiniMax,2025-10-26,18.6257,6.9004,MiniMax-M2,minimax-m2,True,True
 MiniMax,2025-12-23,20.9453,2.3196,MiniMax-M2.1,minimax-m2-1,True,True
