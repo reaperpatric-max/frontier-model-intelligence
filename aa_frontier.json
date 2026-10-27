@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-26",
+ "generatedAt": "2026-10-27",
  "source": "artificialanalysis.ai",
- "modelCount": 698,
+ "modelCount": 704,
  "dateRange": [
   "2022-11-30",
-  "2026-10-23"
+  "2026-10-26"
  ],
  "frontier": [
   {
@@ -8867,6 +8867,60 @@
    "name": "Kimi K3.1 Pro",
    "creator": "Kimi",
    "intel": 55.087,
+   "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-26",
+   "name": "GPT-6.1 Terra (Non-reasoning)",
+   "creator": "OpenAI",
+   "intel": 33.489,
+   "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-26",
+   "name": "GPT-6.1 Terra (Max)",
+   "creator": "OpenAI",
+   "intel": 48.106,
+   "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-26",
+   "name": "GPT-6.1 Terra (Medium)",
+   "creator": "OpenAI",
+   "intel": 41.319,
+   "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-26",
+   "name": "GPT-6.1 Terra (Low)",
+   "creator": "OpenAI",
+   "intel": 36.213,
+   "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-26",
+   "name": "GPT-6.1 Terra (Xhigh)",
+   "creator": "OpenAI",
+   "intel": 45.364,
+   "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-26",
+   "name": "GPT-6.1 Terra (High)",
+   "creator": "OpenAI",
+   "intel": 43.869,
    "open": false,
    "est": false,
    "price": null

@@ -243,10 +243,10 @@
    ]
   }
  ],
- "versionCount": 503,
+ "versionCount": 504,
  "dateRange": [
   "2022-11-30",
-  "2026-10-23"
+  "2026-10-26"
  ],
  "cadence": {
   "n": 39,
@@ -1190,7 +1190,7 @@
  "tenure": {
   "n": 55,
   "median": 58,
-  "mean": 74.2,
+  "mean": 74.3,
   "p25": 25,
   "p75": 87,
   "min": 5,
@@ -1471,6 +1471,14 @@
    "days": 34
   },
   {
+   "name": "Claude Opus 5.5 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "from": "2026-09-22",
+   "to": null,
+   "days": 34,
+   "current": true
+  },
+  {
    "name": "Claude 3.5 Sonnet (June '24)",
    "creator": "Anthropic",
    "from": "2024-06-21",
@@ -1478,11 +1486,11 @@
    "days": 32
   },
   {
-   "name": "Claude Opus 5.5 (Max, Default Fallback)",
+   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
    "creator": "Anthropic",
-   "from": "2026-09-22",
+   "from": "2026-09-28",
    "to": null,
-   "days": 31,
+   "days": 28,
    "current": true
   },
   {
@@ -1491,14 +1499,6 @@
    "from": "2026-09-03",
    "to": "2026-09-28",
    "days": 25
-  },
-  {
-   "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "from": "2026-09-28",
-   "to": null,
-   "days": 25,
-   "current": true
   },
   {
    "name": "o3-mini",
@@ -1543,6 +1543,14 @@
    "days": 14
   },
   {
+   "name": "Muse Wonder Full (Max)",
+   "creator": "Meta",
+   "from": "2026-10-12",
+   "to": null,
+   "days": 14,
+   "current": true
+  },
+  {
    "name": "DeepSeek R1 (Jan '25)",
    "creator": "DeepSeek",
    "from": "2025-01-20",
@@ -1555,14 +1563,6 @@
    "from": "2025-11-13",
    "to": "2025-11-24",
    "days": 11
-  },
-  {
-   "name": "Muse Wonder Full (Max)",
-   "creator": "Meta",
-   "from": "2026-10-12",
-   "to": null,
-   "days": 11,
-   "current": true
   },
   {
    "name": "Kimi K3 (Max)",
