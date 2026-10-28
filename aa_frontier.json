@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27",
+ "generatedAt": "2026-10-28",
  "source": "artificialanalysis.ai",
  "modelCount": 704,
  "dateRange": [
@@ -1587,7 +1587,7 @@
     "model": "Ling 3.1 Flash 1019",
     "slug": "ling-3-1-flash-1019",
     "creator": "InclusionAI",
-    "isOpenWeights": false,
+    "isOpenWeights": true,
     "isReasoning": true
    }
   ],
@@ -2565,6 +2565,38 @@
     "isReasoning": false
    }
   ],
+  "Microsoft": [
+   {
+    "date": "2024-04-23",
+    "intelligenceIndex": 5.824,
+    "deltaVsPrevStep": null,
+    "model": "Phi-3 Mini Instruct 3.8B",
+    "slug": "phi-3-mini",
+    "creator": "Microsoft",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2024-12-12",
+    "intelligenceIndex": 5.9226,
+    "deltaVsPrevStep": 0.0986,
+    "model": "Phi-4",
+    "slug": "phi-4",
+    "creator": "Microsoft",
+    "isOpenWeights": true,
+    "isReasoning": false
+   },
+   {
+    "date": "2025-02-26",
+    "intelligenceIndex": 6.3286,
+    "deltaVsPrevStep": 0.406,
+    "model": "Phi-4 Mini Instruct",
+    "slug": "phi-4-mini",
+    "creator": "Microsoft",
+    "isOpenWeights": true,
+    "isReasoning": false
+   }
+  ],
   "AI21 Labs": [
    {
     "date": "2024-08-22",
@@ -2793,15 +2825,6 @@
    "creator": "Mistral",
    "intel": 5.764,
    "open": false,
-   "est": true,
-   "price": null
-  },
-  {
-   "date": "2024-02-26",
-   "name": "Phi-4 Mini Instruct",
-   "creator": "Microsoft",
-   "intel": 6.329,
-   "open": true,
    "est": true,
    "price": null
   },
@@ -3692,6 +3715,15 @@
    "name": "Phi-4 Multimodal Instruct",
    "creator": "Microsoft",
    "intel": 5.805,
+   "open": true,
+   "est": true,
+   "price": null
+  },
+  {
+   "date": "2025-02-26",
+   "name": "Phi-4 Mini Instruct",
+   "creator": "Microsoft",
+   "intel": 6.329,
    "open": true,
    "est": true,
    "price": null
@@ -8858,7 +8890,7 @@
    "name": "Ling 3.1 Flash 1019",
    "creator": "InclusionAI",
    "intel": 43.897,
-   "open": false,
+   "open": true,
    "est": false,
    "price": null
   },

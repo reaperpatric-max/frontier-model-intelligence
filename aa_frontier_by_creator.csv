@@ -129,7 +129,7 @@ InclusionAI,2026-04-23,17.0002,6.1027,Ling-2.6-1T,ling-2-6-1t,True,False
 InclusionAI,2026-08-04,20.1333,3.1331,Ling 3.0 Flash,ling-3-0-flash,True,True
 InclusionAI,2026-09-10,24.5693,4.436,Ling-3.0-flash-VL,ling-3-0-flash-vl,True,True
 InclusionAI,2026-10-01,41.0906,16.5213,Ling 3.1 Flash,ling-3-1-flash,True,True
-InclusionAI,2026-10-22,43.8974,2.8068,Ling 3.1 Flash 1019,ling-3-1-flash-1019,False,True
+InclusionAI,2026-10-22,43.8974,2.8068,Ling 3.1 Flash 1019,ling-3-1-flash-1019,True,True
 StepFun,2026-01-20,7.6939,,Step3 VL 10B,step-3-vl-10b,True,True
 StepFun,2026-02-02,16.6169,8.923,Step 3.5 Flash,step-3-5-flash-0202,True,True
 StepFun,2026-04-02,16.9641,0.3472,Step 3.5 Flash 2603,step-3-5-flash,False,True
@@ -222,5 +222,8 @@ Nous Research,2025-08-27,7.9058,1.8315,Hermes 4 - Llama-3.1 70B (Reasoning),herm
 Allen Institute for AI,2024-09-25,5.5626,,Molmo 7B-D,molmo-7b-d,True,False
 Allen Institute for AI,2024-11-26,5.5774,0.0148,OLMo 2 7B,olmo-2-7b,True,False
 Allen Institute for AI,2025-01-30,7.1989,1.6215,Llama 3.1 Tulu3 405B,tulu3-405b,True,False
+Microsoft,2024-04-23,5.824,,Phi-3 Mini Instruct 3.8B,phi-3-mini,True,False
+Microsoft,2024-12-12,5.9226,0.0986,Phi-4,phi-4,True,False
+Microsoft,2025-02-26,6.3286,0.406,Phi-4 Mini Instruct,phi-4-mini,True,False
 AI21 Labs,2024-08-22,6.0121,,Jamba 1.5 Large,jamba-1-5-large,True,False
 AI21 Labs,2025-07-07,6.071,0.0589,Jamba 1.7 Large,jamba-1-7-large,True,False
