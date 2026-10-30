@@ -1,26 +1,26 @@
 {
- "generatedAt": "2026-10-29",
+ "generatedAt": "2026-10-30",
  "source": "artificialanalysis.ai",
- "modelCount": 78,
+ "modelCount": 86,
  "dateRange": [
   "2026-03-16",
-  "2026-10-28"
+  "2026-10-29"
  ],
  "frontier": [
   {
    "date": "2026-03-16",
-   "intelligenceIndex": 1.8158,
+   "intelligenceIndex": 4.2972,
    "deltaVsPrevStep": null,
-   "model": "NVIDIA Nemotron 3 Nano 4B",
-   "slug": "nvidia-nemotron-3-nano-4b",
-   "creator": "NVIDIA",
+   "model": "Mistral Small 4 (Reasoning)",
+   "slug": "mistral-small-4",
+   "creator": "Mistral",
    "isOpenWeights": true,
    "isReasoning": true
   },
   {
    "date": "2026-05-20",
    "intelligenceIndex": 6.2412,
-   "deltaVsPrevStep": 4.4254,
+   "deltaVsPrevStep": 1.944,
    "model": "Command A+",
    "slug": "command-a-plus",
    "creator": "Cohere",
@@ -195,6 +195,28 @@
     "isReasoning": true
    }
   ],
+  "Kimi": [
+   {
+    "date": "2026-07-16",
+    "intelligenceIndex": 17.4192,
+    "deltaVsPrevStep": null,
+    "model": "Kimi K3 (Low)",
+    "slug": "kimi-k3-low",
+    "creator": "Kimi",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-23",
+    "intelligenceIndex": 46.0026,
+    "deltaVsPrevStep": 28.5834,
+    "model": "Kimi K3.1 Pro",
+    "slug": "kimi-k3-1-pro",
+    "creator": "Kimi",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
   "Alibaba": [
    {
     "date": "2026-08-14",
@@ -261,6 +283,38 @@
     "isReasoning": true
    }
   ],
+  "Mistral": [
+   {
+    "date": "2026-03-16",
+    "intelligenceIndex": 4.2972,
+    "deltaVsPrevStep": null,
+    "model": "Mistral Small 4 (Reasoning)",
+    "slug": "mistral-small-4",
+    "creator": "Mistral",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-06",
+    "intelligenceIndex": 25.2865,
+    "deltaVsPrevStep": 20.9893,
+    "model": "Mistral Large 4 Preview",
+    "slug": "mistral-large-4-preview",
+    "creator": "Mistral",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-10-29",
+    "intelligenceIndex": 26.025,
+    "deltaVsPrevStep": 0.7385,
+    "model": "Mistral Large 4 (High)",
+    "slug": "mistral-large-4",
+    "creator": "Mistral",
+    "isOpenWeights": true,
+    "isReasoning": true
+   }
+  ],
   "NVIDIA": [
    {
     "date": "2026-03-16",
@@ -319,6 +373,15 @@
  "models": [
   {
    "date": "2026-03-16",
+   "name": "Mistral Small 4 (Reasoning)",
+   "creator": "Mistral",
+   "intel": 4.297,
+   "open": true,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-03-16",
    "name": "NVIDIA Nemotron 3 Nano 4B",
    "creator": "NVIDIA",
    "intel": 1.816,
@@ -363,6 +426,15 @@
    "price": null
   },
   {
+   "date": "2026-07-16",
+   "name": "Kimi K3 (Low)",
+   "creator": "Kimi",
+   "intel": 17.419,
+   "open": true,
+   "est": false,
+   "price": null
+  },
+  {
    "date": "2026-07-21",
    "name": "Gemini 3.5 Flash-Lite",
    "creator": "Google",
@@ -390,10 +462,37 @@
    "price": null
   },
   {
+   "date": "2026-08-11",
+   "name": "Nemotron 3.5 Lightning",
+   "creator": "NVIDIA",
+   "intel": 5.535,
+   "open": true,
+   "est": false,
+   "price": null
+  },
+  {
    "date": "2026-08-13",
    "name": "DeepSeek V4 Pro 0813 (Max)",
    "creator": "DeepSeek",
    "intel": 23.063,
+   "open": true,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-08-14",
+   "name": "Qwen3.8 27B (Medium)",
+   "creator": "Alibaba",
+   "intel": 17.483,
+   "open": true,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-08-14",
+   "name": "Qwen3.8 27B (Low)",
+   "creator": "Alibaba",
+   "intel": 15.685,
    "open": true,
    "est": false,
    "price": null
@@ -421,6 +520,15 @@
    "name": "GLM-5.3 (Max)",
    "creator": "Z AI",
    "intel": 31.653,
+   "open": true,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-08-26",
+   "name": "GLM-5.3-Flash",
+   "creator": "Z AI",
+   "intel": 27.754,
    "open": true,
    "est": false,
    "price": null
@@ -1016,6 +1124,24 @@
    "creator": "Google",
    "intel": 59.426,
    "open": false,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-29",
+   "name": "Mistral Large 4 (Medium)",
+   "creator": "Mistral",
+   "intel": 23.078,
+   "open": true,
+   "est": false,
+   "price": null
+  },
+  {
+   "date": "2026-10-29",
+   "name": "Mistral Large 4 (High)",
+   "creator": "Mistral",
+   "intel": 26.025,
+   "open": true,
    "est": false,
    "price": null
   }

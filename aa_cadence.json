@@ -32,14 +32,14 @@
    "median": null,
    "mean": null,
    "roll3": null,
-   "frontierEnd": 1.82,
+   "frontierEnd": 4.3,
    "frontierDelta": null,
    "refreshCount": 1,
    "refreshModels": [
     {
-     "name": "NVIDIA Nemotron 3 Nano 4B",
-     "creator": "NVIDIA",
-     "intel": 1.82
+     "name": "Mistral Small 4 (Reasoning)",
+     "creator": "Mistral",
+     "intel": 4.3
     }
    ],
    "events": []
@@ -50,7 +50,7 @@
    "median": null,
    "mean": null,
    "roll3": null,
-   "frontierEnd": 1.82,
+   "frontierEnd": 4.3,
    "frontierDelta": 0.0,
    "refreshCount": 0,
    "refreshModels": [],
@@ -63,7 +63,7 @@
    "mean": null,
    "roll3": null,
    "frontierEnd": 6.24,
-   "frontierDelta": 4.425,
+   "frontierDelta": 1.944,
    "refreshCount": 1,
    "refreshModels": [
     {
@@ -76,10 +76,10 @@
   },
   {
    "month": "2026-06",
-   "n": 1,
-   "median": 80,
-   "mean": 80.0,
-   "roll3": 80,
+   "n": 0,
+   "median": null,
+   "mean": null,
+   "roll3": null,
    "frontierEnd": 18.73,
    "frontierDelta": 12.488,
    "refreshCount": 1,
@@ -90,20 +90,14 @@
      "intel": 18.73
     }
    ],
-   "events": [
-    {
-     "creator": "NVIDIA",
-     "gap": 80,
-     "to": "2026-06-04"
-    }
-   ]
+   "events": []
   },
   {
    "month": "2026-07",
    "n": 1,
    "median": 15,
    "mean": 15.0,
-   "roll3": 47.5,
+   "roll3": 15,
    "frontierEnd": 18.73,
    "frontierDelta": 0.0,
    "refreshCount": 0,
@@ -118,10 +112,10 @@
   },
   {
    "month": "2026-08",
-   "n": 0,
-   "median": null,
-   "mean": null,
-   "roll3": 47.5,
+   "n": 1,
+   "median": 8,
+   "mean": 8.0,
+   "roll3": 11.5,
    "frontierEnd": 31.65,
    "frontierDelta": 12.925,
    "refreshCount": 2,
@@ -137,14 +131,20 @@
      "intel": 31.65
     }
    ],
-   "events": []
+   "events": [
+    {
+     "creator": "Z AI",
+     "gap": 8,
+     "to": "2026-08-26"
+    }
+   ]
   },
   {
    "month": "2026-09",
    "n": 3,
    "median": 21,
    "mean": 17.7,
-   "roll3": 18.0,
+   "roll3": 15,
    "frontierEnd": 58.41,
    "frontierDelta": 26.753,
    "refreshCount": 3,
@@ -188,7 +188,7 @@
    "n": 0,
    "median": null,
    "mean": null,
-   "roll3": 21,
+   "roll3": 14.5,
    "frontierEnd": 59.43,
    "frontierDelta": 1.02,
    "refreshCount": 1,
@@ -202,26 +202,26 @@
    "events": []
   }
  ],
- "versionCount": 39,
+ "versionCount": 44,
  "dateRange": [
   "2026-03-16",
-  "2026-10-28"
+  "2026-10-29"
  ],
  "cadence": {
   "n": 5,
-  "median": 21,
-  "mean": 29.6,
+  "median": 15,
+  "mean": 15.2,
   "p25": 6,
-  "p75": 26,
+  "p75": 21,
   "min": 6,
-  "max": 80
+  "max": 26
  },
  "cadenceHistogram": [
   {
    "label": "≤1 个月",
    "lo": 0,
    "hi": 30,
-   "count": 4
+   "count": 5
   },
   {
    "label": "1–2 个月",
@@ -233,7 +233,7 @@
    "label": "2–3 个月",
    "lo": 61,
    "hi": 90,
-   "count": 1
+   "count": 0
   },
   {
    "label": "3–4 个月",
@@ -255,11 +255,11 @@
   }
  ],
  "seat": {
-  "n": 15,
-  "median": 12,
-  "mean": 15.1,
+  "n": 17,
+  "median": 6,
+  "mean": 13.3,
   "p25": 1,
-  "p75": 19,
+  "p75": 14,
   "min": 1,
   "max": 65
  },
@@ -276,12 +276,12 @@
   {
    "year": 2026,
    "n": 5,
-   "median": 21,
-   "mean": 29.6,
+   "median": 15,
+   "mean": 15.2,
    "p25": 6,
-   "p75": 26,
+   "p75": 21,
    "min": 6,
-   "max": 80
+   "max": 26
   }
  ],
  "byCreator": [
@@ -297,19 +297,6 @@
    "gaps": [
     21,
     6
-   ]
-  },
-  {
-   "creator": "NVIDIA",
-   "n": 1,
-   "median": 80,
-   "mean": 80.0,
-   "min": 80,
-   "max": 80,
-   "lastDate": "2026-06-04",
-   "lastGap": 80,
-   "gaps": [
-    80
    ]
   },
   {
@@ -339,6 +326,30 @@
    ]
   },
   {
+   "creator": "Z AI",
+   "n": 1,
+   "median": 8,
+   "mean": 8.0,
+   "min": 8,
+   "max": 8,
+   "lastDate": "2026-08-26",
+   "lastGap": 8,
+   "gaps": [
+    8
+   ]
+  },
+  {
+   "creator": "Mistral",
+   "n": 0,
+   "median": null,
+   "mean": null,
+   "min": null,
+   "max": null,
+   "lastDate": "2026-03-16",
+   "lastGap": null,
+   "gaps": []
+  },
+  {
    "creator": "Cohere",
    "n": 0,
    "median": null,
@@ -361,6 +372,28 @@
    "gaps": []
   },
   {
+   "creator": "NVIDIA",
+   "n": 0,
+   "median": null,
+   "mean": null,
+   "min": null,
+   "max": null,
+   "lastDate": "2026-06-04",
+   "lastGap": null,
+   "gaps": []
+  },
+  {
+   "creator": "Kimi",
+   "n": 0,
+   "median": null,
+   "mean": null,
+   "min": null,
+   "max": null,
+   "lastDate": "2026-07-16",
+   "lastGap": null,
+   "gaps": []
+  },
+  {
    "creator": "DeepSeek",
    "n": 0,
    "median": null,
@@ -379,17 +412,6 @@
    "min": null,
    "max": null,
    "lastDate": "2026-08-14",
-   "lastGap": null,
-   "gaps": []
-  },
-  {
-   "creator": "Z AI",
-   "n": 0,
-   "median": null,
-   "mean": null,
-   "min": null,
-   "max": null,
-   "lastDate": "2026-08-18",
    "lastGap": null,
    "gaps": []
   },
@@ -418,16 +440,16 @@
  ],
  "iterEvents": [
   {
-   "creator": "NVIDIA",
-   "from": "2026-03-16",
-   "to": "2026-06-04",
-   "gap": 80
-  },
-  {
    "creator": "Thinking Machines",
    "from": "2026-07-15",
    "to": "2026-07-30",
    "gap": 15
+  },
+  {
+   "creator": "Z AI",
+   "from": "2026-08-18",
+   "to": "2026-08-26",
+   "gap": 8
   },
   {
    "creator": "Anthropic",
@@ -451,9 +473,9 @@
  "changelog": [
   {
    "date": "2026-03-16",
-   "entered": "NVIDIA Nemotron 3 Nano 4B",
-   "enteredCreator": "NVIDIA",
-   "enteredIntel": 1.8158,
+   "entered": "Mistral Small 4 (Reasoning)",
+   "enteredCreator": "Mistral",
+   "enteredIntel": 4.2972,
    "exited": null,
    "exitedCreator": null,
    "gapDays": null
@@ -472,8 +494,8 @@
    "entered": "MiniMax-M3",
    "enteredCreator": "MiniMax",
    "enteredIntel": 18.7289,
-   "exited": null,
-   "exitedCreator": null,
+   "exited": "NVIDIA Nemotron 3 Nano 4B",
+   "exitedCreator": "NVIDIA",
    "gapDays": 12
   },
   {
@@ -481,8 +503,8 @@
    "entered": "Nemotron 3 Ultra 550B A55B (Reasoning)",
    "enteredCreator": "NVIDIA",
    "enteredIntel": 11.7593,
-   "exited": "NVIDIA Nemotron 3 Nano 4B",
-   "exitedCreator": "NVIDIA",
+   "exited": "Mistral Small 4 (Reasoning)",
+   "exitedCreator": "Mistral",
    "gapDays": 3
   },
   {
@@ -495,20 +517,29 @@
    "gapDays": 41
   },
   {
+   "date": "2026-07-16",
+   "entered": "Kimi K3 (Low)",
+   "enteredCreator": "Kimi",
+   "enteredIntel": 17.4192,
+   "exited": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+   "exitedCreator": "NVIDIA",
+   "gapDays": 1
+  },
+  {
    "date": "2026-07-30",
    "entered": "Inkling Small",
    "enteredCreator": "Thinking Machines",
    "enteredIntel": 12.9102,
-   "exited": "Nemotron 3 Ultra 550B A55B (Reasoning)",
-   "exitedCreator": "NVIDIA",
-   "gapDays": 15
+   "exited": "Inkling (Xhigh)",
+   "exitedCreator": "Thinking Machines",
+   "gapDays": 14
   },
   {
    "date": "2026-08-13",
    "entered": "DeepSeek V4 Pro 0813 (Max)",
    "enteredCreator": "DeepSeek",
    "enteredIntel": 23.0633,
-   "exited": "Inkling (Xhigh)",
+   "exited": "Inkling Small",
    "exitedCreator": "Thinking Machines",
    "gapDays": 14
   },
@@ -517,8 +548,8 @@
    "entered": "Qwen3.8 27B (Xhigh)",
    "enteredCreator": "Alibaba",
    "enteredIntel": 20.1069,
-   "exited": "Inkling Small",
-   "exitedCreator": "Thinking Machines",
+   "exited": "Kimi K3 (Low)",
+   "exitedCreator": "Kimi",
    "gapDays": 1
   },
   {
@@ -531,21 +562,30 @@
    "gapDays": 4
   },
   {
+   "date": "2026-08-26",
+   "entered": "GLM-5.3-Flash",
+   "enteredCreator": "Z AI",
+   "enteredIntel": 27.7539,
+   "exited": "Qwen3.8 27B (Xhigh)",
+   "exitedCreator": "Alibaba",
+   "gapDays": 8
+  },
+  {
    "date": "2026-09-01",
    "entered": "Claude Fable 5.1 (Xhigh, Default Fallback)",
    "enteredCreator": "Anthropic",
    "enteredIntel": 49.6716,
-   "exited": "Qwen3.8 27B (Xhigh)",
-   "exitedCreator": "Alibaba",
-   "gapDays": 14
+   "exited": "DeepSeek V4 Pro 0813 (Max)",
+   "exitedCreator": "DeepSeek",
+   "gapDays": 6
   },
   {
    "date": "2026-09-02",
    "entered": "Muse Spark 1.3 (Max)",
    "enteredCreator": "Meta",
    "enteredIntel": 36.4172,
-   "exited": "DeepSeek V4 Pro 0813 (Max)、GLM-5.3 (Max)",
-   "exitedCreator": "DeepSeek、Z AI",
+   "exited": "GLM-5.3-Flash、GLM-5.3 (Max)",
+   "exitedCreator": "Z AI、Z AI",
    "gapDays": 1
   },
   {
@@ -612,18 +652,18 @@
   }
  ],
  "tenure": {
-  "n": 17,
-  "median": 27,
-  "mean": 31.5,
-  "p25": 15,
-  "p75": 55,
-  "min": 0,
+  "n": 20,
+  "median": 23.5,
+  "mean": 30.8,
+  "p25": 12,
+  "p75": 56,
+  "min": 1,
   "max": 80
  },
  "tenures": [
   {
-   "name": "NVIDIA Nemotron 3 Nano 4B",
-   "creator": "NVIDIA",
+   "name": "Mistral Small 4 (Reasoning)",
+   "creator": "Mistral",
    "from": "2026-03-16",
    "to": "2026-06-04",
    "days": 80
@@ -636,6 +676,13 @@
    "days": 78
   },
   {
+   "name": "NVIDIA Nemotron 3 Nano 4B",
+   "creator": "NVIDIA",
+   "from": "2026-03-16",
+   "to": "2026-06-01",
+   "days": 77
+  },
+  {
    "name": "Command A+",
    "creator": "Cohere",
    "from": "2026-05-20",
@@ -643,33 +690,33 @@
    "days": 56
   },
   {
-   "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
-   "creator": "NVIDIA",
-   "from": "2026-06-04",
-   "to": "2026-07-30",
-   "days": 56
-  },
-  {
    "name": "GPT-6 Astra (Max)",
    "creator": "OpenAI",
    "from": "2026-09-03",
    "to": null,
-   "days": 55,
+   "days": 56,
    "current": true
+  },
+  {
+   "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+   "creator": "NVIDIA",
+   "from": "2026-06-04",
+   "to": "2026-07-16",
+   "days": 42
   },
   {
    "name": "Claude Opus 5.5 (Max, Default Fallback)",
    "creator": "Anthropic",
    "from": "2026-09-22",
    "to": null,
-   "days": 36,
+   "days": 37,
    "current": true
   },
   {
-   "name": "Inkling (Xhigh)",
-   "creator": "Thinking Machines",
-   "from": "2026-07-15",
-   "to": "2026-08-13",
+   "name": "Kimi K3 (Low)",
+   "creator": "Kimi",
+   "from": "2026-07-16",
+   "to": "2026-08-14",
    "days": 29
   },
   {
@@ -687,13 +734,6 @@
    "days": 27
   },
   {
-   "name": "DeepSeek V4 Pro 0813 (Max)",
-   "creator": "DeepSeek",
-   "from": "2026-08-13",
-   "to": "2026-09-02",
-   "days": 20
-  },
-  {
    "name": "Muse Spark 1.3 (Max)",
    "creator": "Meta",
    "from": "2026-09-02",
@@ -701,17 +741,17 @@
    "days": 20
   },
   {
-   "name": "Qwen3.8 27B (Xhigh)",
-   "creator": "Alibaba",
-   "from": "2026-08-14",
+   "name": "DeepSeek V4 Pro 0813 (Max)",
+   "creator": "DeepSeek",
+   "from": "2026-08-13",
    "to": "2026-09-01",
-   "days": 18
+   "days": 19
   },
   {
-   "name": "Inkling Small",
+   "name": "Inkling (Xhigh)",
    "creator": "Thinking Machines",
-   "from": "2026-07-30",
-   "to": "2026-08-14",
+   "from": "2026-07-15",
+   "to": "2026-07-30",
    "days": 15
   },
   {
@@ -720,6 +760,27 @@
    "from": "2026-08-18",
    "to": "2026-09-02",
    "days": 15
+  },
+  {
+   "name": "Inkling Small",
+   "creator": "Thinking Machines",
+   "from": "2026-07-30",
+   "to": "2026-08-13",
+   "days": 14
+  },
+  {
+   "name": "Qwen3.8 27B (Xhigh)",
+   "creator": "Alibaba",
+   "from": "2026-08-14",
+   "to": "2026-08-26",
+   "days": 12
+  },
+  {
+   "name": "GLM-5.3-Flash",
+   "creator": "Z AI",
+   "from": "2026-08-26",
+   "to": "2026-09-02",
+   "days": 7
   },
   {
    "name": "Qwen3.8 Max (0902)",
@@ -740,7 +801,7 @@
    "creator": "Google",
    "from": "2026-10-28",
    "to": null,
-   "days": 0,
+   "days": 1,
    "current": true
   }
  ],
@@ -748,6 +809,11 @@
   {
    "date": "2026-03-16",
    "top": [
+    {
+     "name": "Mistral Small 4 (Reasoning)",
+     "creator": "Mistral",
+     "intel": 4.2972
+    },
     {
      "name": "NVIDIA Nemotron 3 Nano 4B",
      "creator": "NVIDIA",
@@ -762,6 +828,11 @@
      "name": "Command A+",
      "creator": "Cohere",
      "intel": 6.2412
+    },
+    {
+     "name": "Mistral Small 4 (Reasoning)",
+     "creator": "Mistral",
+     "intel": 4.2972
     },
     {
      "name": "NVIDIA Nemotron 3 Nano 4B",
@@ -784,9 +855,9 @@
      "intel": 6.2412
     },
     {
-     "name": "NVIDIA Nemotron 3 Nano 4B",
-     "creator": "NVIDIA",
-     "intel": 1.8158
+     "name": "Mistral Small 4 (Reasoning)",
+     "creator": "Mistral",
+     "intel": 4.2972
     }
    ]
   },
@@ -831,6 +902,26 @@
    ]
   },
   {
+   "date": "2026-07-16",
+   "top": [
+    {
+     "name": "MiniMax-M3",
+     "creator": "MiniMax",
+     "intel": 18.7289
+    },
+    {
+     "name": "Kimi K3 (Low)",
+     "creator": "Kimi",
+     "intel": 17.4192
+    },
+    {
+     "name": "Inkling (Xhigh)",
+     "creator": "Thinking Machines",
+     "intel": 12.4782
+    }
+   ]
+  },
+  {
    "date": "2026-07-30",
    "top": [
     {
@@ -839,14 +930,14 @@
      "intel": 18.7289
     },
     {
+     "name": "Kimi K3 (Low)",
+     "creator": "Kimi",
+     "intel": 17.4192
+    },
+    {
      "name": "Inkling Small",
      "creator": "Thinking Machines",
      "intel": 12.9102
-    },
-    {
-     "name": "Inkling (Xhigh)",
-     "creator": "Thinking Machines",
-     "intel": 12.4782
     }
    ]
   },
@@ -864,9 +955,9 @@
      "intel": 18.7289
     },
     {
-     "name": "Inkling Small",
-     "creator": "Thinking Machines",
-     "intel": 12.9102
+     "name": "Kimi K3 (Low)",
+     "creator": "Kimi",
+     "intel": 17.4192
     }
    ]
   },
@@ -911,6 +1002,26 @@
    ]
   },
   {
+   "date": "2026-08-26",
+   "top": [
+    {
+     "name": "GLM-5.3 (Max)",
+     "creator": "Z AI",
+     "intel": 31.6534
+    },
+    {
+     "name": "GLM-5.3-Flash",
+     "creator": "Z AI",
+     "intel": 27.7539
+    },
+    {
+     "name": "DeepSeek V4 Pro 0813 (Max)",
+     "creator": "DeepSeek",
+     "intel": 23.0633
+    }
+   ]
+  },
+  {
    "date": "2026-09-01",
    "top": [
     {
@@ -924,9 +1035,9 @@
      "intel": 31.6534
     },
     {
-     "name": "DeepSeek V4 Pro 0813 (Max)",
-     "creator": "DeepSeek",
-     "intel": 23.0633
+     "name": "GLM-5.3-Flash",
+     "creator": "Z AI",
+     "intel": 27.7539
     }
    ]
   },
@@ -1053,30 +1164,34 @@
  ],
  "seatCount": {
   "Anthropic": 3,
-  "NVIDIA": 2,
   "Thinking Machines": 2,
+  "Z AI": 2,
   "OpenAI": 2,
+  "Mistral": 1,
   "Cohere": 1,
   "MiniMax": 1,
+  "NVIDIA": 1,
+  "Kimi": 1,
   "DeepSeek": 1,
   "Alibaba": 1,
-  "Z AI": 1,
   "Meta": 1,
   "Google": 1
  },
  "raw": {
   "creatorGaps": {
-   "NVIDIA": [
-    80
-   ],
+   "Mistral": [],
    "Cohere": [],
    "MiniMax": [],
+   "NVIDIA": [],
    "Thinking Machines": [
     15
    ],
+   "Kimi": [],
    "DeepSeek": [],
    "Alibaba": [],
-   "Z AI": [],
+   "Z AI": [
+    8
+   ],
    "Anthropic": [
     21,
     6
@@ -1092,11 +1207,13 @@
    12,
    3,
    41,
-   15,
+   1,
+   14,
    14,
    1,
    4,
-   14,
+   8,
+   6,
    1,
    1,
    19,

@@ -1,6 +1,6 @@
 ﻿date,intelligenceIndex,deltaVsPrevStep,model,slug,creator,isOpenWeights,isReasoning
-2026-03-16,1.8158,,NVIDIA Nemotron 3 Nano 4B,nvidia-nemotron-3-nano-4b,NVIDIA,True,True
-2026-05-20,6.2412,4.4254,Command A+,command-a-plus,Cohere,True,True
+2026-03-16,4.2972,,Mistral Small 4 (Reasoning),mistral-small-4,Mistral,True,True
+2026-05-20,6.2412,1.944,Command A+,command-a-plus,Cohere,True,True
 2026-06-01,18.7289,12.4877,MiniMax-M3,minimax-m3,MiniMax,True,True
 2026-08-13,23.0633,4.3344,DeepSeek V4 Pro 0813 (Max),deepseek-v4-pro,DeepSeek,True,True
 2026-08-18,31.6534,8.5901,GLM-5.3 (Max),glm-5-3,Z AI,True,True
