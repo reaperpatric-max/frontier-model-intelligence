@@ -1,36 +1,26 @@
 {
- "generatedAt": "2026-11-04",
+ "generatedAt": "2026-11-05",
  "source": "artificialanalysis.ai",
- "modelCount": 96,
+ "modelCount": 102,
  "dateRange": [
-  "2026-03-16",
+  "2025-10-15",
   "2026-10-29"
  ],
  "frontier": [
   {
-   "date": "2026-03-16",
-   "intelligenceIndex": 4.2972,
+   "date": "2025-10-15",
+   "intelligenceIndex": 7.4303,
    "deltaVsPrevStep": null,
-   "model": "Mistral Small 4 (Reasoning)",
-   "slug": "mistral-small-4",
-   "creator": "Mistral",
-   "isOpenWeights": true,
-   "isReasoning": true
-  },
-  {
-   "date": "2026-05-20",
-   "intelligenceIndex": 6.2412,
-   "deltaVsPrevStep": 1.944,
-   "model": "Command A+",
-   "slug": "command-a-plus",
-   "creator": "Cohere",
-   "isOpenWeights": true,
+   "model": "Claude 4.5 Haiku (Reasoning)",
+   "slug": "claude-4-5-haiku-reasoning",
+   "creator": "Anthropic",
+   "isOpenWeights": false,
    "isReasoning": true
   },
   {
    "date": "2026-06-01",
    "intelligenceIndex": 18.8789,
-   "deltaVsPrevStep": 12.6377,
+   "deltaVsPrevStep": 11.4486,
    "model": "MiniMax-M3",
    "slug": "minimax-m3",
    "creator": "MiniMax",
@@ -91,9 +81,19 @@
  "frontierByCreator": {
   "Google": [
    {
+    "date": "2026-03-03",
+    "intelligenceIndex": 6.1568,
+    "deltaVsPrevStep": null,
+    "model": "Gemini 3.1 Flash-Lite",
+    "slug": "gemini-3-1-flash-lite-preview",
+    "creator": "Google",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
     "date": "2026-07-21",
     "intelligenceIndex": 11.6563,
-    "deltaVsPrevStep": null,
+    "deltaVsPrevStep": 5.4995,
     "model": "Gemini 3.5 Flash-Lite",
     "slug": "gemini-3-5-flash-lite",
     "creator": "Google",
@@ -133,9 +133,19 @@
   ],
   "Anthropic": [
    {
+    "date": "2025-10-15",
+    "intelligenceIndex": 7.4303,
+    "deltaVsPrevStep": null,
+    "model": "Claude 4.5 Haiku (Reasoning)",
+    "slug": "claude-4-5-haiku-reasoning",
+    "creator": "Anthropic",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
     "date": "2026-09-01",
     "intelligenceIndex": 50.0216,
-    "deltaVsPrevStep": null,
+    "deltaVsPrevStep": 42.5913,
     "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
     "slug": "claude-fable-5-1-xhigh",
     "creator": "Anthropic",
@@ -229,6 +239,28 @@
     "isReasoning": true
    }
   ],
+  "SpaceXAI": [
+   {
+    "date": "2026-08-12",
+    "intelligenceIndex": 31.0288,
+    "deltaVsPrevStep": null,
+    "model": "Grok 4.6 (Xhigh)",
+    "slug": "grok-4-6-xhigh",
+    "creator": "SpaceXAI",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-09-21",
+    "intelligenceIndex": 35.485,
+    "deltaVsPrevStep": 4.4562,
+    "model": "Grok 4.7 (Xhigh)",
+    "slug": "grok-4-7",
+    "creator": "SpaceXAI",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
   "Alibaba": [
    {
     "date": "2026-08-14",
@@ -307,9 +339,19 @@
     "isReasoning": true
    },
    {
+    "date": "2026-04-29",
+    "intelligenceIndex": 4.6451,
+    "deltaVsPrevStep": 0.3479,
+    "model": "Mistral Medium 3.5",
+    "slug": "mistral-medium-3-5",
+    "creator": "Mistral",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
     "date": "2026-10-06",
     "intelligenceIndex": 25.3365,
-    "deltaVsPrevStep": 21.0393,
+    "deltaVsPrevStep": 20.6914,
     "model": "Mistral Large 4 Preview",
     "slug": "mistral-large-4-preview",
     "creator": "Mistral",
@@ -384,6 +426,24 @@
  },
  "models": [
   {
+   "date": "2025-10-15",
+   "name": "Claude 4.5 Haiku (Reasoning)",
+   "creator": "Anthropic",
+   "intel": 7.43,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-03-03",
+   "name": "Gemini 3.1 Flash-Lite",
+   "creator": "Google",
+   "intel": 6.157,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
    "date": "2026-03-16",
    "name": "Mistral Small 4 (Reasoning)",
    "creator": "Mistral",
@@ -397,6 +457,15 @@
    "name": "NVIDIA Nemotron 3 Nano 4B",
    "creator": "NVIDIA",
    "intel": 1.816,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-04-29",
+   "name": "Mistral Medium 3.5",
+   "creator": "Mistral",
+   "intel": 4.645,
    "open": true,
    "est": null,
    "price": null
@@ -425,6 +494,15 @@
    "creator": "NVIDIA",
    "intel": 11.759,
    "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-07-09",
+   "name": "GPT-5.6 Luna (Max)",
+   "creator": "OpenAI",
+   "intel": 23.79,
+   "open": false,
    "est": null,
    "price": null
   },
@@ -492,10 +570,28 @@
    "price": null
   },
   {
+   "date": "2026-08-12",
+   "name": "Grok 4.6 (Xhigh)",
+   "creator": "SpaceXAI",
+   "intel": 31.029,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
    "date": "2026-08-13",
    "name": "DeepSeek V4 Pro 0813 (Max)",
    "creator": "DeepSeek",
    "intel": 23.063,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-08-13",
+   "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+   "creator": "DeepSeek",
+   "intel": 12.568,
    "open": true,
    "est": null,
    "price": null
@@ -855,7 +951,7 @@
    "date": "2026-09-22",
    "name": "GPT-6 Sol (Max)",
    "creator": "OpenAI",
-   "intel": 44.106,
+   "intel": 44.156,
    "open": false,
    "est": null,
    "price": null

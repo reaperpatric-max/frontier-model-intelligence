@@ -1,7 +1,6 @@
 ﻿date,intelligenceIndex,deltaVsPrevStep,model,slug,creator,isOpenWeights,isReasoning
-2026-03-16,4.2972,,Mistral Small 4 (Reasoning),mistral-small-4,Mistral,True,True
-2026-05-20,6.2412,1.944,Command A+,command-a-plus,Cohere,True,True
-2026-06-01,18.8789,12.6377,MiniMax-M3,minimax-m3,MiniMax,True,True
+2025-10-15,7.4303,,Claude 4.5 Haiku (Reasoning),claude-4-5-haiku-reasoning,Anthropic,False,True
+2026-06-01,18.8789,11.4486,MiniMax-M3,minimax-m3,MiniMax,True,True
 2026-07-09,32.3434,13.4645,GPT-5.6 Terra (Max),gpt-5-6-terra,OpenAI,False,True
 2026-09-01,50.0216,17.6782,"Claude Fable 5.1 (Xhigh, Default Fallback)",claude-fable-5-1-xhigh,Anthropic,False,True
 2026-09-03,56.8539,6.8323,GPT-6 Astra (Max),gpt-6-astra,OpenAI,False,True
