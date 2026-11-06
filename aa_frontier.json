@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-05",
+ "generatedAt": "2026-11-06",
  "source": "artificialanalysis.ai",
- "modelCount": 102,
+ "modelCount": 108,
  "dateRange": [
   "2025-10-15",
-  "2026-10-29"
+  "2026-11-05"
  ],
  "frontier": [
   {
@@ -38,9 +38,19 @@
    "isReasoning": true
   },
   {
+   "date": "2026-07-24",
+   "intelligenceIndex": 44.1646,
+   "deltaVsPrevStep": 11.8212,
+   "model": "Claude Opus 5 (Max)",
+   "slug": "claude-opus-5",
+   "creator": "Anthropic",
+   "isOpenWeights": false,
+   "isReasoning": true
+  },
+  {
    "date": "2026-09-01",
    "intelligenceIndex": 50.0216,
-   "deltaVsPrevStep": 17.6782,
+   "deltaVsPrevStep": 5.857,
    "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
    "slug": "claude-fable-5-1-xhigh",
    "creator": "Anthropic",
@@ -143,9 +153,19 @@
     "isReasoning": true
    },
    {
+    "date": "2026-07-24",
+    "intelligenceIndex": 44.1646,
+    "deltaVsPrevStep": 36.7343,
+    "model": "Claude Opus 5 (Max)",
+    "slug": "claude-opus-5",
+    "creator": "Anthropic",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
     "date": "2026-09-01",
     "intelligenceIndex": 50.0216,
-    "deltaVsPrevStep": 42.5913,
+    "deltaVsPrevStep": 5.857,
     "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
     "slug": "claude-fable-5-1-xhigh",
     "creator": "Anthropic",
@@ -235,7 +255,7 @@
     "model": "Kimi K3.1 Pro",
     "slug": "kimi-k3-1-pro",
     "creator": "Kimi",
-    "isOpenWeights": false,
+    "isOpenWeights": true,
     "isReasoning": true
    }
   ],
@@ -302,6 +322,38 @@
     "slug": "deepseek-v4-1-flash-1017",
     "creator": "DeepSeek",
     "isOpenWeights": true,
+    "isReasoning": true
+   }
+  ],
+  "Thinking Machines": [
+   {
+    "date": "2026-07-15",
+    "intelligenceIndex": 12.4782,
+    "deltaVsPrevStep": null,
+    "model": "Inkling (Xhigh)",
+    "slug": "inkling",
+    "creator": "Thinking Machines",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-07-30",
+    "intelligenceIndex": 12.9102,
+    "deltaVsPrevStep": 0.432,
+    "model": "Inkling Small",
+    "slug": "inkling-small",
+    "creator": "Thinking Machines",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-11-05",
+    "intelligenceIndex": 30.6287,
+    "deltaVsPrevStep": 17.7185,
+    "model": "Inkling 2 Small",
+    "slug": "inkling-2-small",
+    "creator": "Thinking Machines",
+    "isOpenWeights": false,
     "isReasoning": true
    }
   ],
@@ -400,28 +452,6 @@
     "isOpenWeights": true,
     "isReasoning": true
    }
-  ],
-  "Thinking Machines": [
-   {
-    "date": "2026-07-15",
-    "intelligenceIndex": 12.4782,
-    "deltaVsPrevStep": null,
-    "model": "Inkling (Xhigh)",
-    "slug": "inkling",
-    "creator": "Thinking Machines",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-07-30",
-    "intelligenceIndex": 12.9102,
-    "deltaVsPrevStep": 0.432,
-    "model": "Inkling Small",
-    "slug": "inkling-small",
-    "creator": "Thinking Machines",
-    "isOpenWeights": true,
-    "isReasoning": true
-   }
   ]
  },
  "models": [
@@ -462,6 +492,15 @@
    "price": null
   },
   {
+   "date": "2026-04-02",
+   "name": "Gemma 4 31B (Reasoning)",
+   "creator": "Google",
+   "intel": 4.384,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
    "date": "2026-04-29",
    "name": "Mistral Medium 3.5",
    "creator": "Mistral",
@@ -493,6 +532,15 @@
    "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
    "creator": "NVIDIA",
    "intel": 11.759,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-06-09",
+   "name": "North Mini Code",
+   "creator": "Cohere",
+   "intel": 3.425,
    "open": true,
    "est": null,
    "price": null
@@ -538,6 +586,15 @@
    "name": "Gemini 3.5 Flash-Lite",
    "creator": "Google",
    "intel": 11.656,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-07-24",
+   "name": "Claude Opus 5 (Max)",
+   "creator": "Anthropic",
+   "intel": 44.165,
    "open": false,
    "est": null,
    "price": null
@@ -1138,6 +1195,15 @@
   },
   {
    "date": "2026-10-12",
+   "name": "Muse Wonder (High)",
+   "creator": "Meta",
+   "intel": 40.527,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-10-12",
    "name": "Muse Wonder Full (Max)",
    "creator": "Meta",
    "intel": 50.077,
@@ -1231,7 +1297,7 @@
    "name": "Kimi K3.1 Pro",
    "creator": "Kimi",
    "intel": 46.453,
-   "open": false,
+   "open": true,
    "est": null,
    "price": null
   },
@@ -1340,6 +1406,24 @@
    "creator": "Mistral",
    "intel": 26.125,
    "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-03",
+   "name": "Tencent Hy4",
+   "creator": "Tencent",
+   "intel": 34.555,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-05",
+   "name": "Inkling 2 Small",
+   "creator": "Thinking Machines",
+   "intel": 30.629,
+   "open": false,
    "est": null,
    "price": null
   }
