@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-06",
+ "generatedAt": "2026-11-07",
  "source": "artificialanalysis.ai",
- "modelCount": 108,
+ "modelCount": 109,
  "dateRange": [
   "2025-10-15",
   "2026-11-05"
@@ -622,6 +622,15 @@
    "name": "Nemotron 3.5 Lightning",
    "creator": "NVIDIA",
    "intel": 5.535,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-08-12",
+   "name": "K-EXAONE 2.0",
+   "creator": "LG AI Research",
+   "intel": 7.564,
    "open": true,
    "est": null,
    "price": null
