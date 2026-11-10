@@ -1,16 +1,26 @@
 {
- "generatedAt": "2026-11-09",
+ "generatedAt": "2026-11-10",
  "source": "artificialanalysis.ai",
- "modelCount": 109,
+ "modelCount": 118,
  "dateRange": [
-  "2025-10-15",
-  "2026-11-05"
+  "2025-08-05",
+  "2026-11-09"
  ],
  "frontier": [
   {
+   "date": "2025-08-05",
+   "intelligenceIndex": 3.8198,
+   "deltaVsPrevStep": null,
+   "model": "gpt-oss-120b (High)",
+   "slug": "gpt-oss-120b",
+   "creator": "OpenAI",
+   "isOpenWeights": true,
+   "isReasoning": true
+  },
+  {
    "date": "2025-10-15",
    "intelligenceIndex": 7.4303,
-   "deltaVsPrevStep": null,
+   "deltaVsPrevStep": 3.6105,
    "model": "Claude 4.5 Haiku (Reasoning)",
    "slug": "claude-4-5-haiku-reasoning",
    "creator": "Anthropic",
@@ -86,9 +96,71 @@
    "creator": "Google",
    "isOpenWeights": false,
    "isReasoning": true
+  },
+  {
+   "date": "2026-11-09",
+   "intelligenceIndex": 64.5636,
+   "deltaVsPrevStep": 4.5379,
+   "model": "Claude Fable 5.2 (Max, Default Fallback)",
+   "slug": "claude-fable-5-2",
+   "creator": "Anthropic",
+   "isOpenWeights": false,
+   "isReasoning": true
   }
  ],
  "frontierByCreator": {
+  "Anthropic": [
+   {
+    "date": "2025-10-15",
+    "intelligenceIndex": 7.4303,
+    "deltaVsPrevStep": null,
+    "model": "Claude 4.5 Haiku (Reasoning)",
+    "slug": "claude-4-5-haiku-reasoning",
+    "creator": "Anthropic",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-07-24",
+    "intelligenceIndex": 44.1646,
+    "deltaVsPrevStep": 36.7343,
+    "model": "Claude Opus 5 (Max)",
+    "slug": "claude-opus-5",
+    "creator": "Anthropic",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-09-01",
+    "intelligenceIndex": 50.0216,
+    "deltaVsPrevStep": 5.857,
+    "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+    "slug": "claude-fable-5-1-xhigh",
+    "creator": "Anthropic",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-09-22",
+    "intelligenceIndex": 59.106,
+    "deltaVsPrevStep": 9.0844,
+    "model": "Claude Opus 5.5 (Max, Default Fallback)",
+    "slug": "claude-opus-5-5",
+    "creator": "Anthropic",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-11-09",
+    "intelligenceIndex": 64.5636,
+    "deltaVsPrevStep": 5.4576,
+    "model": "Claude Fable 5.2 (Max, Default Fallback)",
+    "slug": "claude-fable-5-2",
+    "creator": "Anthropic",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
   "Google": [
    {
     "date": "2026-03-03",
@@ -141,53 +213,21 @@
     "isReasoning": true
    }
   ],
-  "Anthropic": [
-   {
-    "date": "2025-10-15",
-    "intelligenceIndex": 7.4303,
-    "deltaVsPrevStep": null,
-    "model": "Claude 4.5 Haiku (Reasoning)",
-    "slug": "claude-4-5-haiku-reasoning",
-    "creator": "Anthropic",
-    "isOpenWeights": false,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-07-24",
-    "intelligenceIndex": 44.1646,
-    "deltaVsPrevStep": 36.7343,
-    "model": "Claude Opus 5 (Max)",
-    "slug": "claude-opus-5",
-    "creator": "Anthropic",
-    "isOpenWeights": false,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-09-01",
-    "intelligenceIndex": 50.0216,
-    "deltaVsPrevStep": 5.857,
-    "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
-    "slug": "claude-fable-5-1-xhigh",
-    "creator": "Anthropic",
-    "isOpenWeights": false,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-09-22",
-    "intelligenceIndex": 59.106,
-    "deltaVsPrevStep": 9.0844,
-    "model": "Claude Opus 5.5 (Max, Default Fallback)",
-    "slug": "claude-opus-5-5",
-    "creator": "Anthropic",
-    "isOpenWeights": false,
-    "isReasoning": true
-   }
-  ],
   "OpenAI": [
+   {
+    "date": "2025-08-05",
+    "intelligenceIndex": 3.8198,
+    "deltaVsPrevStep": null,
+    "model": "gpt-oss-120b (High)",
+    "slug": "gpt-oss-120b",
+    "creator": "OpenAI",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
    {
     "date": "2026-07-09",
     "intelligenceIndex": 32.3434,
-    "deltaVsPrevStep": null,
+    "deltaVsPrevStep": 28.5236,
     "model": "GPT-5.6 Terra (Max)",
     "slug": "gpt-5-6-terra",
     "creator": "OpenAI",
@@ -455,6 +495,15 @@
   ]
  },
  "models": [
+  {
+   "date": "2025-08-05",
+   "name": "gpt-oss-120b (High)",
+   "creator": "OpenAI",
+   "intel": 3.82,
+   "open": true,
+   "est": null,
+   "price": null
+  },
   {
    "date": "2025-10-15",
    "name": "Claude 4.5 Haiku (Reasoning)",
@@ -1432,6 +1481,78 @@
    "name": "Inkling 2 Small",
    "creator": "Thinking Machines",
    "intel": 30.629,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-07",
+   "name": "Agnes 2.5 Pro Theta",
+   "creator": "Sapiens AI",
+   "intel": 24.029,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-09",
+   "name": "Claude Fable 5.2 (Medium, Default Fallback)",
+   "creator": "Anthropic",
+   "intel": 56.408,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-09",
+   "name": "Claude Fable 5.2 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "intel": 64.564,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-09",
+   "name": "Claude Fable 5.2 (Xhigh, Default Fallback)",
+   "creator": "Anthropic",
+   "intel": 62.217,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-09",
+   "name": "Muse Ember (Xhigh)",
+   "creator": "Meta",
+   "intel": 34.115,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-09",
+   "name": "Claude Fable 5.2 (Low, Default Fallback)",
+   "creator": "Anthropic",
+   "intel": 53.925,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-09",
+   "name": "Muse Ember (Max)",
+   "creator": "Meta",
+   "intel": 36.021,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-09",
+   "name": "Claude Fable 5.2 (High, Default Fallback)",
+   "creator": "Anthropic",
+   "intel": 61.822,
    "open": false,
    "est": null,
    "price": null
