@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-10",
+ "generatedAt": "2026-11-11",
  "source": "artificialanalysis.ai",
- "modelCount": 118,
+ "modelCount": 119,
  "dateRange": [
   "2025-08-05",
   "2026-11-09"
@@ -789,6 +789,15 @@
    "creator": "Z AI",
    "intel": 27.804,
    "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-08-30",
+   "name": "Apodex 1.1",
+   "creator": "Apodex",
+   "intel": 13.671,
+   "open": false,
    "est": null,
    "price": null
   },
