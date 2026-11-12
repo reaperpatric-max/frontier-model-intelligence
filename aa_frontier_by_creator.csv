@@ -20,7 +20,8 @@ Kimi,2026-10-23,46.4526,29.0334,Kimi K3.1 Pro,kimi-k3-1-pro,True,True
 SpaceXAI,2026-08-12,31.0288,,Grok 4.6 (Xhigh),grok-4-6-xhigh,False,True
 SpaceXAI,2026-09-21,35.485,4.4562,Grok 4.7 (Xhigh),grok-4-7,False,True
 Alibaba,2026-08-14,20.1069,,Qwen3.8 27B (Xhigh),qwen3-8-27b,True,True
-Alibaba,2026-09-02,33.6546,13.5477,Qwen3.8 Max (0902),qwen3-8-max,False,True
+Alibaba,2026-08-26,28.575,8.4681,Qwen3.8-Flash-Next,qwen3-8-flash-next,True,True
+Alibaba,2026-09-02,33.6546,5.0796,Qwen3.8 Max (0902),qwen3-8-max,False,True
 DeepSeek,2026-08-13,23.0633,,DeepSeek V4 Pro 0813 (Max),deepseek-v4-pro,True,True
 DeepSeek,2026-10-17,32.5896,9.5263,DeepSeek V4.1 Flash 1017 (Max),deepseek-v4-1-flash-1017,True,True
 Thinking Machines,2026-07-15,12.4782,,Inkling (Xhigh),inkling,True,True

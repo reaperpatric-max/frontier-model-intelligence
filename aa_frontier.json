@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-11",
+ "generatedAt": "2026-11-12",
  "source": "artificialanalysis.ai",
- "modelCount": 119,
+ "modelCount": 122,
  "dateRange": [
   "2025-08-05",
-  "2026-11-09"
+  "2026-11-11"
  ],
  "frontier": [
   {
@@ -333,9 +333,19 @@
     "isReasoning": true
    },
    {
+    "date": "2026-08-26",
+    "intelligenceIndex": 28.575,
+    "deltaVsPrevStep": 8.4681,
+    "model": "Qwen3.8-Flash-Next",
+    "slug": "qwen3-8-flash-next",
+    "creator": "Alibaba",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
     "date": "2026-09-02",
     "intelligenceIndex": 33.6546,
-    "deltaVsPrevStep": 13.5477,
+    "deltaVsPrevStep": 5.0796,
     "model": "Qwen3.8 Max (0902)",
     "slug": "qwen3-8-max",
     "creator": "Alibaba",
@@ -658,6 +668,15 @@
    "price": null
   },
   {
+   "date": "2026-08-06",
+   "name": "Solar Pro 4",
+   "creator": "Upstage",
+   "intel": 14.159,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
    "date": "2026-08-10",
    "name": "Muse Glimmer (High)",
    "creator": "Meta",
@@ -788,6 +807,15 @@
    "name": "GLM-5.3-Flash",
    "creator": "Z AI",
    "intel": 27.804,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-08-26",
+   "name": "Qwen3.8-Flash-Next",
+   "creator": "Alibaba",
+   "intel": 28.575,
    "open": true,
    "est": null,
    "price": null
@@ -1562,6 +1590,15 @@
    "name": "Claude Fable 5.2 (High, Default Fallback)",
    "creator": "Anthropic",
    "intel": 61.822,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-11",
+   "name": "JT-4.1 Flash 236B A21B",
+   "creator": "China Mobile",
+   "intel": 18.953,
    "open": false,
    "est": null,
    "price": null
