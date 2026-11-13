@@ -240,10 +240,10 @@
    ]
   }
  ],
- "versionCount": 68,
+ "versionCount": 69,
  "dateRange": [
   "2025-08-05",
-  "2026-11-11"
+  "2026-11-12"
  ],
  "cadence": {
   "n": 11,
@@ -728,7 +728,7 @@
  "tenure": {
   "n": 22,
   "median": 28.0,
-  "mean": 50.4,
+  "mean": 50.5,
   "p25": 14,
   "p75": 55,
   "min": 1,
@@ -789,7 +789,7 @@
    "creator": "Anthropic",
    "from": "2026-09-22",
    "to": null,
-   "days": 50,
+   "days": 51,
    "current": true
   },
   {
@@ -849,19 +849,19 @@
    "days": 15
   },
   {
+   "name": "Gemini 4 Carbon (High)",
+   "creator": "Google",
+   "from": "2026-10-28",
+   "to": null,
+   "days": 15,
+   "current": true
+  },
+  {
    "name": "GLM-5.3 (Max)",
    "creator": "Z AI",
    "from": "2026-08-18",
    "to": "2026-09-01",
    "days": 14
-  },
-  {
-   "name": "Gemini 4 Carbon (High)",
-   "creator": "Google",
-   "from": "2026-10-28",
-   "to": null,
-   "days": 14,
-   "current": true
   },
   {
    "name": "Grok 4.6 (Xhigh)",
@@ -875,7 +875,7 @@
    "creator": "Anthropic",
    "from": "2026-11-09",
    "to": null,
-   "days": 2,
+   "days": 3,
    "current": true
   },
   {

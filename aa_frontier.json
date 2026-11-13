@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-12",
+ "generatedAt": "2026-11-13",
  "source": "artificialanalysis.ai",
- "modelCount": 122,
+ "modelCount": 126,
  "dateRange": [
   "2025-08-05",
-  "2026-11-11"
+  "2026-11-12"
  ],
  "frontier": [
   {
@@ -403,7 +403,7 @@
     "model": "Inkling 2 Small",
     "slug": "inkling-2-small",
     "creator": "Thinking Machines",
-    "isOpenWeights": false,
+    "isOpenWeights": true,
     "isReasoning": true
    }
   ],
@@ -1518,7 +1518,7 @@
    "name": "Inkling 2 Small",
    "creator": "Thinking Machines",
    "intel": 30.629,
-   "open": false,
+   "open": true,
    "est": null,
    "price": null
   },
@@ -1599,6 +1599,42 @@
    "name": "JT-4.1 Flash 236B A21B",
    "creator": "China Mobile",
    "intel": 18.953,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-12",
+   "name": "Gemini 4 Hydrogen (Low)",
+   "creator": "Google",
+   "intel": 26.894,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-12",
+   "name": "Gemini 4 Hydrogen (Xhigh)",
+   "creator": "Google",
+   "intel": 53.919,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-12",
+   "name": "Gemini 4 Hydrogen (High)",
+   "creator": "Google",
+   "intel": 50.787,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-12",
+   "name": "Gemini 4 Hydrogen (Medium)",
+   "creator": "Google",
+   "intel": 41.233,
    "open": false,
    "est": null,
    "price": null

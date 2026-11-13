@@ -26,7 +26,7 @@ DeepSeek,2026-08-13,23.0633,,DeepSeek V4 Pro 0813 (Max),deepseek-v4-pro,True,Tru
 DeepSeek,2026-10-17,32.5896,9.5263,DeepSeek V4.1 Flash 1017 (Max),deepseek-v4-1-flash-1017,True,True
 Thinking Machines,2026-07-15,12.4782,,Inkling (Xhigh),inkling,True,True
 Thinking Machines,2026-07-30,12.9102,0.432,Inkling Small,inkling-small,True,True
-Thinking Machines,2026-11-05,30.6287,17.7185,Inkling 2 Small,inkling-2-small,False,True
+Thinking Machines,2026-11-05,30.6287,17.7185,Inkling 2 Small,inkling-2-small,True,True
 MiniMax,2026-06-01,18.8789,,MiniMax-M3,minimax-m3,True,True
 MiniMax,2026-10-19,29.0595,10.1806,MiniMax-M3.1-Flash,minimax-m3-1-flash,True,True
 Mistral,2026-03-16,4.2972,,Mistral Small 4 (Reasoning),mistral-small-4,True,True
