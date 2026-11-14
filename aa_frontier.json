@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-13",
+ "generatedAt": "2026-11-14",
  "source": "artificialanalysis.ai",
- "modelCount": 126,
+ "modelCount": 128,
  "dateRange": [
   "2025-08-05",
   "2026-11-12"
@@ -731,6 +731,15 @@
    "price": null
   },
   {
+   "date": "2026-08-13",
+   "name": "DeepSeek V4 Pro 0813 (High)",
+   "creator": "DeepSeek",
+   "intel": 20.799,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
    "date": "2026-08-14",
    "name": "Qwen3.8 27B (Non-reasoning)",
    "creator": "Alibaba",
@@ -1221,6 +1230,15 @@
    "name": "GPT-6.1 Sol (Low)",
    "creator": "OpenAI",
    "intel": 34.803,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-09-30",
+   "name": "Gemini 4 Argon (Medium)",
+   "creator": "Google",
+   "intel": 47.604,
    "open": false,
    "est": null,
    "price": null
