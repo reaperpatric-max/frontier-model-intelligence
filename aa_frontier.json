@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-15",
+ "generatedAt": "2026-11-16",
  "source": "artificialanalysis.ai",
- "modelCount": 128,
+ "modelCount": 129,
  "dateRange": [
   "2025-08-05",
-  "2026-11-12"
+  "2026-11-16"
  ],
  "frontier": [
   {
@@ -299,28 +299,6 @@
     "isReasoning": true
    }
   ],
-  "SpaceXAI": [
-   {
-    "date": "2026-08-12",
-    "intelligenceIndex": 31.0288,
-    "deltaVsPrevStep": null,
-    "model": "Grok 4.6 (Xhigh)",
-    "slug": "grok-4-6-xhigh",
-    "creator": "SpaceXAI",
-    "isOpenWeights": false,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-09-21",
-    "intelligenceIndex": 35.485,
-    "deltaVsPrevStep": 4.4562,
-    "model": "Grok 4.7 (Xhigh)",
-    "slug": "grok-4-7",
-    "creator": "SpaceXAI",
-    "isOpenWeights": false,
-    "isReasoning": true
-   }
-  ],
   "Alibaba": [
    {
     "date": "2026-08-14",
@@ -349,6 +327,38 @@
     "model": "Qwen3.8 Max (0902)",
     "slug": "qwen3-8-max",
     "creator": "Alibaba",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-11-16",
+    "intelligenceIndex": 42.8915,
+    "deltaVsPrevStep": 9.2369,
+    "model": "Qwen4 Max",
+    "slug": "qwen4-max",
+    "creator": "Alibaba",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
+  "SpaceXAI": [
+   {
+    "date": "2026-08-12",
+    "intelligenceIndex": 31.0288,
+    "deltaVsPrevStep": null,
+    "model": "Grok 4.6 (Xhigh)",
+    "slug": "grok-4-6-xhigh",
+    "creator": "SpaceXAI",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-09-21",
+    "intelligenceIndex": 35.485,
+    "deltaVsPrevStep": 4.4562,
+    "model": "Grok 4.7 (Xhigh)",
+    "slug": "grok-4-7",
+    "creator": "SpaceXAI",
     "isOpenWeights": false,
     "isReasoning": true
    }
@@ -1653,6 +1663,15 @@
    "name": "Gemini 4 Hydrogen (Medium)",
    "creator": "Google",
    "intel": 41.233,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-16",
+   "name": "Qwen4 Max",
+   "creator": "Alibaba",
+   "intel": 42.891,
    "open": false,
    "est": null,
    "price": null

@@ -127,3 +127,4 @@
 2026-11-12,Gemini 4 Hydrogen (Xhigh),Gemini 4 Hydrogen (xhigh),gemini-4-hydrogen,Google,False,True,large,,,53.9192287317542,,,,,,,,,,,,,,,,0.211111111111111,,,,,,,,,
 2026-11-12,Gemini 4 Hydrogen (High),Gemini 4 Hydrogen (high),gemini-4-hydrogen-high,Google,False,True,large,,,50.7870826951304,,,,,,,,,,,,,,,,,,,,,,,,,
 2026-11-12,Gemini 4 Hydrogen (Medium),Gemini 4 Hydrogen (medium),gemini-4-hydrogen-medium,Google,False,True,large,,,41.2329566992579,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-11-16,Qwen4 Max,Qwen4 Max,qwen4-max,Alibaba,False,True,large,,,42.8914543287565,,,1808.69,,,,,,,,,,,,,,0.591445427728614,,0.4625,0.4852282900626679,,,,,
