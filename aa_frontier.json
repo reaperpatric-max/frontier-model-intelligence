@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-16",
+ "generatedAt": "2026-11-17",
  "source": "artificialanalysis.ai",
- "modelCount": 129,
+ "modelCount": 130,
  "dateRange": [
   "2025-08-05",
   "2026-11-16"
@@ -565,6 +565,15 @@
    "name": "Gemma 4 31B (Reasoning)",
    "creator": "Google",
    "intel": 4.384,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-04-03",
+   "name": "Gemma 4 E4B (Reasoning)",
+   "creator": "Google",
+   "intel": 4.781,
    "open": true,
    "est": null,
    "price": null
