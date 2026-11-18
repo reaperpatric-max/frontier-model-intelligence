@@ -217,10 +217,10 @@
   },
   {
    "month": "2026-11",
-   "n": 1,
-   "median": 42,
-   "mean": 42.0,
-   "roll3": 39,
+   "n": 2,
+   "median": 45.5,
+   "mean": 45.5,
+   "roll3": 40.5,
    "frontierEnd": 64.56,
    "frontierDelta": 4.538,
    "refreshCount": 1,
@@ -236,20 +236,25 @@
      "creator": "Anthropic",
      "gap": 42,
      "to": "2026-11-09"
+    },
+    {
+     "creator": "OpenAI",
+     "gap": 49,
+     "to": "2026-11-17"
     }
    ]
   }
  ],
- "versionCount": 71,
+ "versionCount": 77,
  "dateRange": [
   "2025-08-05",
-  "2026-11-16"
+  "2026-11-17"
  ],
  "cadence": {
-  "n": 11,
-  "median": 39,
-  "mean": 95.4,
-  "p25": 6,
+  "n": 12,
+  "median": 40.5,
+  "mean": 91.5,
+  "p25": 21,
   "p75": 208,
   "min": 1,
   "max": 338
@@ -265,7 +270,7 @@
    "label": "1–2 个月",
    "lo": 31,
    "hi": 60,
-   "count": 3
+   "count": 4
   },
   {
    "label": "2–3 个月",
@@ -293,11 +298,11 @@
   }
  ],
  "seat": {
-  "n": 20,
-  "median": 13.5,
-  "mean": 23.1,
+  "n": 21,
+  "median": 13,
+  "mean": 22.3,
   "p25": 3,
-  "p75": 29,
+  "p75": 19,
   "min": 1,
   "max": 139
  },
@@ -313,10 +318,10 @@
  "byYear": [
   {
    "year": 2026,
-   "n": 11,
-   "median": 39,
-   "mean": 95.4,
-   "p25": 6,
+   "n": 12,
+   "median": 40.5,
+   "mean": 91.5,
+   "p25": 21,
    "p75": 208,
    "min": 1,
    "max": 338
@@ -342,17 +347,18 @@
   },
   {
    "creator": "OpenAI",
-   "n": 3,
-   "median": 56,
-   "mean": 140.0,
+   "n": 4,
+   "median": 52.5,
+   "mean": 117.2,
    "min": 26,
    "max": 338,
-   "lastDate": "2026-09-29",
-   "lastGap": 26,
+   "lastDate": "2026-11-17",
+   "lastGap": 49,
    "gaps": [
     338,
     56,
-    26
+    26,
+    49
    ]
   },
   {
@@ -514,6 +520,12 @@
    "from": "2026-09-28",
    "to": "2026-11-09",
    "gap": 42
+  },
+  {
+   "creator": "OpenAI",
+   "from": "2026-09-29",
+   "to": "2026-11-17",
+   "gap": 49
   }
  ],
  "changelog": [
@@ -705,6 +717,15 @@
    "exited": "GPT-6 Astra (Max)",
    "exitedCreator": "OpenAI",
    "gapDays": 12
+  },
+  {
+   "date": "2026-11-17",
+   "entered": "GPT-6.2 Astra (Max)",
+   "enteredCreator": "OpenAI",
+   "enteredIntel": 62.1388,
+   "exited": "Claude Opus 5.5 (Max, Default Fallback)",
+   "exitedCreator": "Anthropic",
+   "gapDays": 8
   }
  ],
  "finalTop": [
@@ -714,23 +735,23 @@
    "intel": 64.5636
   },
   {
+   "name": "GPT-6.2 Astra (Max)",
+   "creator": "OpenAI",
+   "intel": 62.1388
+  },
+  {
    "name": "Gemini 4 Carbon (High)",
    "creator": "Google",
    "intel": 60.0257
-  },
-  {
-   "name": "Claude Opus 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "intel": 59.106
   }
  ],
  "tenure": {
-  "n": 22,
-  "median": 31.5,
-  "mean": 51.0,
-  "p25": 7,
-  "p75": 55,
-  "min": 1,
+  "n": 23,
+  "median": 29,
+  "mean": 49.0,
+  "p25": 6,
+  "p75": 56,
+  "min": 0,
   "max": 267
  },
  "tenures": [
@@ -770,19 +791,18 @@
    "days": 60
   },
   {
+   "name": "Claude Opus 5.5 (Max, Default Fallback)",
+   "creator": "Anthropic",
+   "from": "2026-09-22",
+   "to": "2026-11-17",
+   "days": 56
+  },
+  {
    "name": "GPT-5.6 Terra (Max)",
    "creator": "OpenAI",
    "from": "2026-07-09",
    "to": "2026-09-02",
    "days": 55
-  },
-  {
-   "name": "Claude Opus 5.5 (Max, Default Fallback)",
-   "creator": "Anthropic",
-   "from": "2026-09-22",
-   "to": null,
-   "days": 55,
-   "current": true
   },
   {
    "name": "MiniMax-M3",
@@ -831,7 +851,7 @@
    "creator": "Google",
    "from": "2026-10-28",
    "to": null,
-   "days": 19,
+   "days": 20,
    "current": true
   },
   {
@@ -860,7 +880,7 @@
    "creator": "Anthropic",
    "from": "2026-11-09",
    "to": null,
-   "days": 7,
+   "days": 8,
    "current": true
   },
   {
@@ -890,6 +910,14 @@
    "from": "2026-09-28",
    "to": "2026-09-29",
    "days": 1
+  },
+  {
+   "name": "GPT-6.2 Astra (Max)",
+   "creator": "OpenAI",
+   "from": "2026-11-17",
+   "to": null,
+   "days": 0,
+   "current": true
   }
  ],
  "snaps": [
@@ -1297,11 +1325,31 @@
      "intel": 59.106
     }
    ]
+  },
+  {
+   "date": "2026-11-17",
+   "top": [
+    {
+     "name": "Claude Fable 5.2 (Max, Default Fallback)",
+     "creator": "Anthropic",
+     "intel": 64.5636
+    },
+    {
+     "name": "GPT-6.2 Astra (Max)",
+     "creator": "OpenAI",
+     "intel": 62.1388
+    },
+    {
+     "name": "Gemini 4 Carbon (High)",
+     "creator": "Google",
+     "intel": 60.0257
+    }
+   ]
   }
  ],
  "seatCount": {
   "Anthropic": 6,
-  "OpenAI": 4,
+  "OpenAI": 5,
   "Google": 4,
   "Mistral": 1,
   "Cohere": 1,
@@ -1316,7 +1364,8 @@
    "OpenAI": [
     338,
     56,
-    26
+    26,
+    49
    ],
    "Anthropic": [
     282,
@@ -1358,7 +1407,8 @@
    6,
    1,
    29,
-   12
+   12,
+   8
   ],
   "leaderGaps": [
    71,

@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-17",
+ "generatedAt": "2026-11-18",
  "source": "artificialanalysis.ai",
- "modelCount": 130,
+ "modelCount": 146,
  "dateRange": [
   "2025-08-05",
-  "2026-11-16"
+  "2026-11-17"
  ],
  "frontier": [
   {
@@ -161,6 +161,48 @@
     "isReasoning": true
    }
   ],
+  "OpenAI": [
+   {
+    "date": "2025-08-05",
+    "intelligenceIndex": 3.8198,
+    "deltaVsPrevStep": null,
+    "model": "gpt-oss-120b (High)",
+    "slug": "gpt-oss-120b",
+    "creator": "OpenAI",
+    "isOpenWeights": true,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-07-09",
+    "intelligenceIndex": 32.3434,
+    "deltaVsPrevStep": 28.5236,
+    "model": "GPT-5.6 Terra (Max)",
+    "slug": "gpt-5-6-terra",
+    "creator": "OpenAI",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-09-03",
+    "intelligenceIndex": 56.8539,
+    "deltaVsPrevStep": 24.5105,
+    "model": "GPT-6 Astra (Max)",
+    "slug": "gpt-6-astra",
+    "creator": "OpenAI",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-11-17",
+    "intelligenceIndex": 62.1388,
+    "deltaVsPrevStep": 5.2849,
+    "model": "GPT-6.2 Astra (Max)",
+    "slug": "gpt-6-2-astra",
+    "creator": "OpenAI",
+    "isOpenWeights": false,
+    "isReasoning": true
+   }
+  ],
   "Google": [
    {
     "date": "2026-03-03",
@@ -209,38 +251,6 @@
     "model": "Gemini 4 Carbon (High)",
     "slug": "gemini-4-carbon",
     "creator": "Google",
-    "isOpenWeights": false,
-    "isReasoning": true
-   }
-  ],
-  "OpenAI": [
-   {
-    "date": "2025-08-05",
-    "intelligenceIndex": 3.8198,
-    "deltaVsPrevStep": null,
-    "model": "gpt-oss-120b (High)",
-    "slug": "gpt-oss-120b",
-    "creator": "OpenAI",
-    "isOpenWeights": true,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-07-09",
-    "intelligenceIndex": 32.3434,
-    "deltaVsPrevStep": 28.5236,
-    "model": "GPT-5.6 Terra (Max)",
-    "slug": "gpt-5-6-terra",
-    "creator": "OpenAI",
-    "isOpenWeights": false,
-    "isReasoning": true
-   },
-   {
-    "date": "2026-09-03",
-    "intelligenceIndex": 56.8539,
-    "deltaVsPrevStep": 24.5105,
-    "model": "GPT-6 Astra (Max)",
-    "slug": "gpt-6-astra",
-    "creator": "OpenAI",
     "isOpenWeights": false,
     "isReasoning": true
    }
@@ -651,6 +661,15 @@
    "price": null
   },
   {
+   "date": "2026-07-15",
+   "name": "Inkling (High)",
+   "creator": "Thinking Machines",
+   "intel": 11.032,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
    "date": "2026-07-16",
    "name": "Kimi K3 (Low)",
    "creator": "Kimi",
@@ -687,6 +706,15 @@
    "price": null
   },
   {
+   "date": "2026-07-30",
+   "name": "Inkling Small (High)",
+   "creator": "Thinking Machines",
+   "intel": 9.575,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
    "date": "2026-08-06",
    "name": "Solar Pro 4",
    "creator": "Upstage",
@@ -718,6 +746,15 @@
    "name": "K-EXAONE 2.0",
    "creator": "LG AI Research",
    "intel": 7.564,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-08-12",
+   "name": "A.X-K2",
+   "creator": "SK Telecom",
+   "intel": 9.044,
    "open": true,
    "est": null,
    "price": null
@@ -1497,6 +1534,24 @@
    "price": null
   },
   {
+   "date": "2026-10-27",
+   "name": "LFM3-VL-2B",
+   "creator": "Liquid AI",
+   "intel": 1.706,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-10-27",
+   "name": "LFM3-1.7B",
+   "creator": "Liquid AI",
+   "intel": 5.994,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
    "date": "2026-10-28",
    "name": "Gemini 4 Carbon (Medium)",
    "creator": "Google",
@@ -1681,6 +1736,105 @@
    "name": "Qwen4 Max",
    "creator": "Alibaba",
    "intel": 42.891,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Sol (Xhigh)",
+   "creator": "OpenAI",
+   "intel": 55.735,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Astra (Xhigh)",
+   "creator": "OpenAI",
+   "intel": 61.56,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "JoyAI-VL-Preview",
+   "creator": "Joy Future Academy",
+   "intel": 28.036,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Astra (Max)",
+   "creator": "OpenAI",
+   "intel": 62.139,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Sol (Medium)",
+   "creator": "OpenAI",
+   "intel": 52.678,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Astra (Medium)",
+   "creator": "OpenAI",
+   "intel": 56.999,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Sol (Max)",
+   "creator": "OpenAI",
+   "intel": 57.258,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Sol (Low)",
+   "creator": "OpenAI",
+   "intel": 40.553,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Astra (Low)",
+   "creator": "OpenAI",
+   "intel": 45.65,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Sol (High)",
+   "creator": "OpenAI",
+   "intel": 54.89,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-17",
+   "name": "GPT-6.2 Astra (High)",
+   "creator": "OpenAI",
+   "intel": 60.088,
    "open": false,
    "est": null,
    "price": null
