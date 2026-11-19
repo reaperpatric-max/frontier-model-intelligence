@@ -217,10 +217,10 @@
   },
   {
    "month": "2026-11",
-   "n": 2,
-   "median": 45.5,
-   "mean": 45.5,
-   "roll3": 40.5,
+   "n": 3,
+   "median": 42,
+   "mean": 37.3,
+   "roll3": 39,
    "frontierEnd": 64.56,
    "frontierDelta": 4.538,
    "refreshCount": 1,
@@ -241,21 +241,26 @@
      "creator": "OpenAI",
      "gap": 49,
      "to": "2026-11-17"
+    },
+    {
+     "creator": "Google",
+     "gap": 21,
+     "to": "2026-11-18"
     }
    ]
   }
  ],
- "versionCount": 77,
+ "versionCount": 84,
  "dateRange": [
   "2025-08-05",
-  "2026-11-17"
+  "2026-11-18"
  ],
  "cadence": {
-  "n": 12,
-  "median": 40.5,
-  "mean": 91.5,
+  "n": 13,
+  "median": 39,
+  "mean": 86.1,
   "p25": 21,
-  "p75": 208,
+  "p75": 56,
   "min": 1,
   "max": 338
  },
@@ -264,7 +269,7 @@
    "label": "≤1 个月",
    "lo": 0,
    "hi": 30,
-   "count": 5
+   "count": 6
   },
   {
    "label": "1–2 个月",
@@ -298,10 +303,10 @@
   }
  ],
  "seat": {
-  "n": 21,
-  "median": 13,
-  "mean": 22.3,
-  "p25": 3,
+  "n": 22,
+  "median": 12.5,
+  "mean": 21.4,
+  "p25": 1,
   "p75": 19,
   "min": 1,
   "max": 139
@@ -318,11 +323,11 @@
  "byYear": [
   {
    "year": 2026,
-   "n": 12,
-   "median": 40.5,
-   "mean": 91.5,
+   "n": 13,
+   "median": 39,
+   "mean": 86.1,
    "p25": 21,
-   "p75": 208,
+   "p75": 56,
    "min": 1,
    "max": 338
   }
@@ -363,17 +368,18 @@
   },
   {
    "creator": "Google",
-   "n": 3,
-   "median": 30,
-   "mean": 79.7,
+   "n": 4,
+   "median": 25.5,
+   "mean": 65.0,
    "min": 1,
    "max": 208,
-   "lastDate": "2026-10-28",
-   "lastGap": 208,
+   "lastDate": "2026-11-18",
+   "lastGap": 21,
    "gaps": [
     30,
     1,
-    208
+    208,
+    21
    ]
   },
   {
@@ -526,6 +532,12 @@
    "from": "2026-09-29",
    "to": "2026-11-17",
    "gap": 49
+  },
+  {
+   "creator": "Google",
+   "from": "2026-10-28",
+   "to": "2026-11-18",
+   "gap": 21
   }
  ],
  "changelog": [
@@ -726,6 +738,15 @@
    "exited": "Claude Opus 5.5 (Max, Default Fallback)",
    "exitedCreator": "Anthropic",
    "gapDays": 8
+  },
+  {
+   "date": "2026-11-18",
+   "entered": "Gemini 4 Neon (Xhigh)",
+   "enteredCreator": "Google",
+   "enteredIntel": 61.3982,
+   "exited": "Gemini 4 Carbon (High)",
+   "exitedCreator": "Google",
+   "gapDays": 1
   }
  ],
  "finalTop": [
@@ -740,15 +761,15 @@
    "intel": 62.1388
   },
   {
-   "name": "Gemini 4 Carbon (High)",
+   "name": "Gemini 4 Neon (Xhigh)",
    "creator": "Google",
-   "intel": 60.0257
+   "intel": 61.3982
   }
  ],
  "tenure": {
-  "n": 23,
-  "median": 29,
-  "mean": 49.0,
+  "n": 24,
+  "median": 28.0,
+  "mean": 47.0,
   "p25": 6,
   "p75": 56,
   "min": 0,
@@ -850,9 +871,8 @@
    "name": "Gemini 4 Carbon (High)",
    "creator": "Google",
    "from": "2026-10-28",
-   "to": null,
-   "days": 20,
-   "current": true
+   "to": "2026-11-18",
+   "days": 21
   },
   {
    "name": "Mistral Small 4 (Reasoning)",
@@ -880,7 +900,7 @@
    "creator": "Anthropic",
    "from": "2026-11-09",
    "to": null,
-   "days": 8,
+   "days": 9,
    "current": true
   },
   {
@@ -915,6 +935,14 @@
    "name": "GPT-6.2 Astra (Max)",
    "creator": "OpenAI",
    "from": "2026-11-17",
+   "to": null,
+   "days": 1,
+   "current": true
+  },
+  {
+   "name": "Gemini 4 Neon (Xhigh)",
+   "creator": "Google",
+   "from": "2026-11-18",
    "to": null,
    "days": 0,
    "current": true
@@ -1345,12 +1373,32 @@
      "intel": 60.0257
     }
    ]
+  },
+  {
+   "date": "2026-11-18",
+   "top": [
+    {
+     "name": "Claude Fable 5.2 (Max, Default Fallback)",
+     "creator": "Anthropic",
+     "intel": 64.5636
+    },
+    {
+     "name": "GPT-6.2 Astra (Max)",
+     "creator": "OpenAI",
+     "intel": 62.1388
+    },
+    {
+     "name": "Gemini 4 Neon (Xhigh)",
+     "creator": "Google",
+     "intel": 61.3982
+    }
+   ]
   }
  ],
  "seatCount": {
   "Anthropic": 6,
   "OpenAI": 5,
-  "Google": 4,
+  "Google": 5,
   "Mistral": 1,
   "Cohere": 1,
   "MiniMax": 1,
@@ -1377,7 +1425,8 @@
    "Google": [
     30,
     1,
-    208
+    208,
+    21
    ],
    "Mistral": [],
    "Cohere": [],
@@ -1408,7 +1457,8 @@
    1,
    29,
    12,
-   8
+   8,
+   1
   ],
   "leaderGaps": [
    71,

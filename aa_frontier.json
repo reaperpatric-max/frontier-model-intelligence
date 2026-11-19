@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-18",
+ "generatedAt": "2026-11-19",
  "source": "artificialanalysis.ai",
- "modelCount": 146,
+ "modelCount": 156,
  "dateRange": [
   "2025-08-05",
-  "2026-11-17"
+  "2026-11-18"
  ],
  "frontier": [
   {
@@ -250,6 +250,16 @@
     "deltaVsPrevStep": 9.6135,
     "model": "Gemini 4 Carbon (High)",
     "slug": "gemini-4-carbon",
+    "creator": "Google",
+    "isOpenWeights": false,
+    "isReasoning": true
+   },
+   {
+    "date": "2026-11-18",
+    "intelligenceIndex": 61.3982,
+    "deltaVsPrevStep": 1.3725,
+    "model": "Gemini 4 Neon (Xhigh)",
+    "slug": "gemini-4-neon",
     "creator": "Google",
     "isOpenWeights": false,
     "isReasoning": true
@@ -860,6 +870,15 @@
   },
   {
    "date": "2026-08-25",
+   "name": "Granite 4.2 30B",
+   "creator": "IBM",
+   "intel": 5.536,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-08-25",
    "name": "Granite 4.2 8B",
    "creator": "IBM",
    "intel": 5.098,
@@ -986,6 +1005,15 @@
   },
   {
    "date": "2026-09-03",
+   "name": "K2 Horizon 7B",
+   "creator": "Institute of Foundation Models",
+   "intel": 10.563,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-09-03",
    "name": "GPT-6 Astra (Xhigh)",
    "creator": "OpenAI",
    "intel": 55.306,
@@ -999,6 +1027,42 @@
    "creator": "OpenAI",
    "intel": 56.854,
    "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-09-03",
+   "name": "K2 Horizon 3.7B",
+   "creator": "Institute of Foundation Models",
+   "intel": 8.023,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-09-03",
+   "name": "K2 Horizon MoVA 36B A4B",
+   "creator": "Institute of Foundation Models",
+   "intel": 13.846,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-09-03",
+   "name": "K2 Horizon 32B",
+   "creator": "Institute of Foundation Models",
+   "intel": 13.881,
+   "open": true,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-09-03",
+   "name": "K2 Horizon 0.9B",
+   "creator": "Institute of Foundation Models",
+   "intel": 2.718,
+   "open": true,
    "est": null,
    "price": null
   },
@@ -1835,6 +1899,42 @@
    "name": "GPT-6.2 Astra (High)",
    "creator": "OpenAI",
    "intel": 60.088,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-18",
+   "name": "Gemini 4 Neon (Low)",
+   "creator": "Google",
+   "intel": 44.083,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-18",
+   "name": "Gemini 4 Neon (Medium)",
+   "creator": "Google",
+   "intel": 54.862,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-18",
+   "name": "Gemini 4 Neon (Xhigh)",
+   "creator": "Google",
+   "intel": 61.398,
+   "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-18",
+   "name": "Gemini 4 Neon (High)",
+   "creator": "Google",
+   "intel": 59.619,
    "open": false,
    "est": null,
    "price": null
