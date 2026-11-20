@@ -153,5 +153,5 @@
 2026-11-17,GPT-6.2 Astra (High),GPT-6.2 Astra (high),gpt-6-2-astra-high,OpenAI,False,True,large,,,60.0882280338247,,,,,,,,,,,0.876878612716763,,,,,0.355555555555556,,,0.6125,0.25156669650850494,,,,,
 2026-11-18,Gemini 4 Neon (Low),Gemini 4 Neon (low),gemini-4-neon-low,Google,False,True,large,,,44.0831506204565,,,,,,,,,,,,,,,,0.261111111111111,,,,,,,,,
 2026-11-18,Gemini 4 Neon (Medium),Gemini 4 Neon (medium),gemini-4-neon-medium,Google,False,True,large,,,54.8622945007349,,,,,,,,,,,,,,,,0.305555555555556,,,,,,,,,
-2026-11-18,Gemini 4 Neon (Xhigh),Gemini 4 Neon (xhigh),gemini-4-neon,Google,False,True,large,,,61.3982491392674,,,,,,,,,,,,,,,,0.305555555555556,,,,,,,,,
-2026-11-18,Gemini 4 Neon (High),Gemini 4 Neon (high),gemini-4-neon-high,Google,False,True,large,,,59.6189441875232,,,,,,,,,,,,,,,,0.283333333333333,,,,,,,,,
+2026-11-18,Gemini 4 Neon (Xhigh),Gemini 4 Neon (xhigh),gemini-4-neon,Google,False,True,large,,,61.3982491392674,,,,,,,,,,,,,,,,0.316666666666667,,,,,,,,,
+2026-11-18,Gemini 4 Neon (High),Gemini 4 Neon (high),gemini-4-neon-high,Google,False,True,large,,,59.6189441875232,,,,,,,,,,,,,,,,0.288888888888889,,,,,,,,,
