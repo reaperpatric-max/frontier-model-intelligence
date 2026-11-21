@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-20",
+ "generatedAt": "2026-11-21",
  "source": "artificialanalysis.ai",
- "modelCount": 156,
+ "modelCount": 157,
  "dateRange": [
   "2025-08-05",
-  "2026-11-18"
+  "2026-11-20"
  ],
  "frontier": [
   {
@@ -1665,7 +1665,7 @@
    "name": "Tencent Hy4",
    "creator": "Tencent",
    "intel": 34.555,
-   "open": false,
+   "open": true,
    "est": null,
    "price": null
   },
@@ -1936,6 +1936,15 @@
    "creator": "Google",
    "intel": 59.619,
    "open": false,
+   "est": null,
+   "price": null
+  },
+  {
+   "date": "2026-11-20",
+   "name": "Inkling 2 Mini",
+   "creator": "Thinking Machines",
+   "intel": 20.132,
+   "open": true,
    "est": null,
    "price": null
   }

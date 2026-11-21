@@ -124,7 +124,7 @@
 2026-10-28,Gemini 4 Carbon (Low),Gemini 4 Carbon (low),gemini-4-carbon-low,Google,False,True,large,,,54.2206114502924,,,,,,,,,,,,,,,,0.188888888888889,,,,,,,,,
 2026-10-29,Mistral Large 4 (Medium),Mistral Large 4 (medium),mistral-large-4-medium,Mistral,True,True,large,,,23.1277321742266,,,,,,,,,,,,0.111428571428571,,,,,,,,,,,,,
 2026-10-29,Mistral Large 4 (High),Mistral Large 4 (high),mistral-large-4,Mistral,True,True,large,,,26.1249946754784,,,,,,,,,,,,0.1,,,,0.177777777777778,,,,,,,,,
-2026-11-03,Tencent Hy4,Tencent Hy4,tencent-hy4,Tencent,False,True,large,,,34.5552385392508,,,,,,,,,,,,,,,,0.327777777777778,,,,,,,,,
+2026-11-03,Tencent Hy4,Tencent Hy4,tencent-hy4,Tencent,True,True,large,,,34.5552385392508,,,,,,,,,,,,,,,,0.327777777777778,,,,,,,,,
 2026-11-05,Inkling 2 Small,Inkling 2 Small,inkling-2-small,Thinking Machines,True,True,large,,,30.6286781498958,,,1630.23,,0.44114921223355,,,,0.523148148148148,0.833333333333333,0.815606936416185,,,0.404123711340206,,0.205555555555556,,,0.5125,0.468218442256043,,,,,
 2026-11-07,Agnes 2.5 Pro Theta,Agnes 2.5 Pro Theta,agnes-2-5-pro-theta,Sapiens AI,False,True,medium,,,24.029012523359,,,1507,,0.371640407784986,,,,0.560185185185185,0.846666666666667,0.784393063583815,0.151428571428571,,,,,,,,,,,,,
 2026-11-09,"Claude Fable 5.2 (Medium, Default Fallback)",Claude Fable 5.2 (medium),claude-fable-5-2-medium,Anthropic,False,True,large,,,56.4083157101519,,,1591.13,,0.619091751621872,,,,0.597222222222222,0.8,,0.308571428571429,,,,,,,,,,,,,
@@ -155,3 +155,4 @@
 2026-11-18,Gemini 4 Neon (Medium),Gemini 4 Neon (medium),gemini-4-neon-medium,Google,False,True,large,,,54.8622945007349,,,,,,,,,,,,,,,,0.305555555555556,,,,,,,,,
 2026-11-18,Gemini 4 Neon (Xhigh),Gemini 4 Neon (xhigh),gemini-4-neon,Google,False,True,large,,,61.3982491392674,,,,,,,,,,,,,,,,0.316666666666667,,,,,,,,,
 2026-11-18,Gemini 4 Neon (High),Gemini 4 Neon (high),gemini-4-neon-high,Google,False,True,large,,,59.6189441875232,,,,,,,,,,,,,,,,0.288888888888889,,,,,,,,,
+2026-11-20,Inkling 2 Mini,Inkling 2 Mini,inkling-2-mini,Thinking Machines,True,True,small,,,20.1315214698783,,,1318.54,,,,,,,,,,,,,,,,0.4625,0.41987466427931963,,,,,

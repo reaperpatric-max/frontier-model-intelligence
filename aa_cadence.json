@@ -250,10 +250,10 @@
    ]
   }
  ],
- "versionCount": 84,
+ "versionCount": 85,
  "dateRange": [
   "2025-08-05",
-  "2026-11-18"
+  "2026-11-20"
  ],
  "cadence": {
   "n": 13,
@@ -769,10 +769,10 @@
  "tenure": {
   "n": 24,
   "median": 28.0,
-  "mean": 47.0,
+  "mean": 47.3,
   "p25": 6,
   "p75": 56,
-  "min": 0,
+  "min": 1,
   "max": 267
  },
  "tenures": [
@@ -900,7 +900,7 @@
    "creator": "Anthropic",
    "from": "2026-11-09",
    "to": null,
-   "days": 9,
+   "days": 11,
    "current": true
   },
   {
@@ -909,6 +909,22 @@
    "from": "2026-08-12",
    "to": "2026-08-18",
    "days": 6
+  },
+  {
+   "name": "GPT-6.2 Astra (Max)",
+   "creator": "OpenAI",
+   "from": "2026-11-17",
+   "to": null,
+   "days": 3,
+   "current": true
+  },
+  {
+   "name": "Gemini 4 Neon (Xhigh)",
+   "creator": "Google",
+   "from": "2026-11-18",
+   "to": null,
+   "days": 2,
+   "current": true
   },
   {
    "name": "Gemma 4 31B (Reasoning)",
@@ -930,22 +946,6 @@
    "from": "2026-09-28",
    "to": "2026-09-29",
    "days": 1
-  },
-  {
-   "name": "GPT-6.2 Astra (Max)",
-   "creator": "OpenAI",
-   "from": "2026-11-17",
-   "to": null,
-   "days": 1,
-   "current": true
-  },
-  {
-   "name": "Gemini 4 Neon (Xhigh)",
-   "creator": "Google",
-   "from": "2026-11-18",
-   "to": null,
-   "days": 0,
-   "current": true
   }
  ],
  "snaps": [
